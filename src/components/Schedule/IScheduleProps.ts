@@ -1,1 +1,5 @@
-export interface IScheduleProps {}
+import { ScheduleItem } from "../../core/ScheduleItem";
+
+export interface IScheduleProps {
+  schedule: Array<ScheduleItem>;
+}
