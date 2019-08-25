@@ -2,41 +2,41 @@ import * as React from "react";
 import { Table, Thead, Tbody, Tr, Th, Td } from "react-super-responsive-table";
 import "react-super-responsive-table/dist/SuperResponsiveTableStyle.css";
 import { IScheduleProps } from "./IScheduleProps";
-import styles from "./Schedule.module.scss";
+import { ScheduleItem } from "../../core/ScheduleItem";
 
-const Schedule: React.SFC<IScheduleProps> = (props) => {
-  return (
-    <Table>
-      <Thead>
-        <Tr>
-          <Th>Wanneer</Th>
-          <Th>Wat</Th>
-          <Th>Waar</Th>
-          <Th>Wie</Th>
-        </Tr>
-      </Thead>
-      <Tbody>
-        <Tr>
-          <Td>14 September 2019</Td>
-          <Td>Wedstrijd</Td>
-          <Td>Drachten</Td>
-          <Td>Jan, Piet, Klaas</Td>
-        </Tr>
-        <Tr>
-          <Td>5 Oktober 2019</Td>
-          <Td>Wedstrijd</Td>
-          <Td>Hoogezand</Td>
-          <Td>Wim, Robert, Ate</Td>
-        </Tr>
-        <Tr>
-          <Td>12 Oktober 2019</Td>
-          <Td>Bardienst</Td>
-          <Td>Clubhuis MHCL</Td>
-          <Td>Wietse, Mattie, Giel</Td>
-        </Tr>
-      </Tbody>
-    </Table>
-  );
-};
+class Schedule extends React.Component<IScheduleProps, {}, any> {
+  private getSchedule(): Array<ScheduleItem> {
+    return this.props.schedule.sort((a, b) => {
+      var dateA: any = a.when;
+      var dateB: any = b.when;
+      return (dateA - dateB);});
+  }
+
+  public render(): JSX.Element {
+    return (
+      <Table>
+        <Thead>
+          <Tr>
+            <Th>Wanneer</Th>
+            <Th>Wat</Th>
+            <Th>Waar</Th>
+            <Th>Wie</Th>
+          </Tr>
+        </Thead>
+        <Tbody>
+          { this.getSchedule().map((item,key) => {
+            return (
+            <Tr key={key}>
+              <Td>{item.when.toLocaleDateString("nl-NL", {year: "numeric", month: "long", day: "numeric"})}</Td>
+              <Td>{item.what}</Td>
+              <Td>{item.where}</Td>
+              <Td>{item.who.join(", ")}</Td>
+            </Tr>
+          );})}
+        </Tbody>
+      </Table>
+    );
+  }
+}
 
 export default Schedule;
