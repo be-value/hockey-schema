@@ -2,9 +2,10 @@ import React from "react";
 import "./App.css";
 import Schedule from "./components/Schedule/Schedule";
 import { ScheduleItem } from "./core/ScheduleItem";
+import schedule from "./schedule.json";
 
 function dateReviver(key: any, value: any): Date|string {
-  const dateFormat: any = /^\d{2}-\d{2}-\d{4}$/;
+  const dateFormat: any = /^\d{1,2}-\d{1,2}-\d{4}$/;
   if (typeof value === "string" && dateFormat.test(value)) {
     var components: string[] = value.split("-");
     let day: number = Number(components[0]);
@@ -16,22 +17,11 @@ function dateReviver(key: any, value: any): Date|string {
   return value;
 }
 
-function dateReplacer(name: any, value: any): any {
-  if (name === "when") {
-    let date: Date = new Date(value);
-    return `${date.getDate()}-${date.getMonth()+1}-${date.getFullYear()}`;
-  }
-
-  return value;
-}
-
-
 class App extends React.Component {
-  private getSchedule(): Array<ScheduleItem> {
-    // tslint:disable-next-line:quotemark
-    var serialized: string = '[{"when":"23-10-2019","what":"Bardienst","where":"Rotterdam","who":["Wim","Zus","Jet"]},{"when":"01-10-2019","what":"Wedstrijd","where":"Waddinxveen","who":["Aap","Noot","Mies"]}]';
+  private getSchedule(): any {
+    var serialized: string = JSON.stringify(schedule);
     let items: Array<ScheduleItem> = JSON.parse(serialized, dateReviver);
-    console.log(JSON.stringify(items, dateReplacer, 2));
+    console.log(serialized);
     return items;
   }
 
