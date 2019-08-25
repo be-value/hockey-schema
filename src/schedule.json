@@ -10,5 +10,11 @@
     "what": "Wedstrijd",
     "where": "Waddinxveen",
     "who": ["Aap", "Noot", "Mies"]
+  },
+  {
+    “when”: “9-5-2019”,
+    “what”: “Wedstrijd”,
+    “where”: “Groningen”,
+    “who”:[“Theun”, “Gijs”, “Kees”]
   }
 ]
