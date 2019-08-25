@@ -1,3 +1,9 @@
+## Current build and deployment status
+[![Build Status](https://dev.azure.com/be-value/hockey/_apis/build/status/Hockey%20static%20web?branchName=master)](https://dev.azure.com/be-value/hockey/_build/latest?definitionId=17&branchName=master)
+
+![Deploy Status](https://vsrm.dev.azure.com/be-value/_apis/public/Release/badge/e2133e88-a396-4de5-82af-6314d05bc841/1/1)
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
