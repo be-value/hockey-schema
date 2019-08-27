@@ -3,6 +3,7 @@ import "./App.css";
 import Schedule from "./components/Schedule/Schedule";
 import { ScheduleItem } from "./core/ScheduleItem";
 import schedule from "./schedule.json";
+import { FormGroup, FormControlLabel, Switch } from "@material-ui/core";
 
 function dateReviver(key: any, value: any): Date|string {
   const dateFormat: any = /^\d{1,2}-\d{1,2}-\d{4}$/;
@@ -17,12 +18,22 @@ function dateReviver(key: any, value: any): Date|string {
   return value;
 }
 
-class App extends React.Component {
+class App extends React.Component<{}, { viewExpiredItems: boolean}, any> {
+  constructor(props: any) {
+    super(props);
+    this.state = { viewExpiredItems: false};
+    this.toggleViewExpiredItemsChanged = this.toggleViewExpiredItemsChanged.bind(this);
+  }
+
   private getSchedule(): any {
     var serialized: string = JSON.stringify(schedule);
     let items: Array<ScheduleItem> = JSON.parse(serialized, dateReviver);
     console.log(serialized);
     return items;
+  }
+
+  toggleViewExpiredItemsChanged = (event: any, checked: boolean) => {
+    this.setState( { viewExpiredItems: checked});
   }
 
   public render(): JSX.Element {
@@ -33,8 +44,18 @@ class App extends React.Component {
             JB1 Rij- en bardienst schema 2019/2020
           </p>
         </header>
+        <div className="App-control">
+          <FormGroup row>
+            <FormControlLabel
+              control={
+                <Switch onChange={this.toggleViewExpiredItemsChanged} checked={this.state.viewExpiredItems} color="primary"/>
+              }
+              label="toon verleden"
+            />
+          </FormGroup>
+        </div>
         <div className="App-body">
-          <Schedule schedule={this.getSchedule()} showExpiredItems={false} />
+          <Schedule schedule={this.getSchedule()} showExpiredItems={this.state.viewExpiredItems} />
         </div>
       </div>
     );
