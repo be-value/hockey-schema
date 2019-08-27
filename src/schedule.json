@@ -3,24 +3,28 @@
     "when": "23-10-2019",
     "what": "Bardienst",
     "where": "Rotterdam",
-    "who": ["Wim", "Zus", "Jet"]
+    "who": ["Wim", "Zus", "Jet"],
+    "comment": "comment 1"
   },
   {
     "when": "1-10-2019",
     "what": "Wedstrijd",
     "where": "Waddinxveen",
-    "who": ["Aap", "Noot", "Mies"]
+    "who": ["Aap", "Noot", "Mies"],
+    "comment": "comment 2"
   },
   {
     "when": "9-5-2019",
     "what": "Wedstrijd",
     "where": "Groningen",
-    "who":["Theun", "Gijs", "Kees"]
+    "who":["Theun", "Gijs", "Kees"],
+    "comment": "comment 3 is heel lang omdat ik wil zien hoe deze wordt gewrapped op een iPhone :-)"
   },
   {
     "when": "14-9-2019",
     "what": "Wedstrijd",
     "where": "Drachten",
-    "who":["Iman", "Jelle", "+3 anderen"]
+    "who":["Iman", "Jelle", "+3 anderen"],
+    "comment": "comment 4"
   }
 ]

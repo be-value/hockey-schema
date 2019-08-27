@@ -21,6 +21,7 @@ class Schedule extends React.Component<IScheduleProps, {}, any> {
             <Th>Wat</Th>
             <Th>Waar</Th>
             <Th>Wie</Th>
+            <Th>Bijzonderheden</Th>
           </Tr>
         </Thead>
         <Tbody>
@@ -31,6 +32,7 @@ class Schedule extends React.Component<IScheduleProps, {}, any> {
               <Td>{item.what}</Td>
               <Td>{item.where}</Td>
               <Td>{item.who.join(", ")}</Td>
+              <Td>{item.comment}</Td>
             </Tr>
           );})}
         </Tbody>
