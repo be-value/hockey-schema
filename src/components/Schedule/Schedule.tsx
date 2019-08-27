@@ -12,7 +12,7 @@ class Schedule extends React.Component<IScheduleProps, {}, any> {
       return (dateA - dateB);});
 
     if (!this.props.showExpiredItems) {
-      items = items.filter(i => Date.now() <= i.when.valueOf());
+      items = items.filter(i => Date.now() <= 86400000+i.when.valueOf());
     }
 
     return items;
@@ -33,7 +33,7 @@ class Schedule extends React.Component<IScheduleProps, {}, any> {
         <Tbody>
           { this.getSchedule().map((item,key) => {
             return (
-            <Tr key={key} className={Date.now() > item.when.valueOf() ? "expired" : "active"}>
+            <Tr key={key} className={Date.now() > 86400000+item.when.valueOf() ? "expired" : "active"}>
               <Td>{item.when.toLocaleDateString("nl-NL", {year: "numeric", month: "long", day: "numeric"})}</Td>
               <Td>{item.what}</Td>
               <Td>{item.where}</Td>
