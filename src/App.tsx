@@ -34,7 +34,7 @@ class App extends React.Component {
           </p>
         </header>
         <div className="App-body">
-          <Schedule schedule = {this.getSchedule()} />
+          <Schedule schedule={this.getSchedule()} showExpiredItems={false} />
         </div>
       </div>
     );

@@ -6,10 +6,16 @@ import { ScheduleItem } from "../../core/ScheduleItem";
 
 class Schedule extends React.Component<IScheduleProps, {}, any> {
   private getSchedule(): Array<ScheduleItem> {
-    return this.props.schedule.sort((a, b) => {
+    var items: Array<ScheduleItem> = this.props.schedule.sort((a, b) => {
       var dateA: any = a.when;
       var dateB: any = b.when;
       return (dateA - dateB);});
+
+    if (!this.props.showExpiredItems) {
+      items = items.filter(i => Date.now() <= i.when.valueOf());
+    }
+
+    return items;
   }
 
   public render(): JSX.Element {
