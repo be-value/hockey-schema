@@ -27,7 +27,7 @@ class Schedule extends React.Component<IScheduleProps, {}, any> {
         <Tbody>
           { this.getSchedule().map((item,key) => {
             return (
-            <Tr key={key}>
+            <Tr key={key} className={Date.now() > item.when.valueOf() ? "expired" : "active"}>
               <Td>{item.when.toLocaleDateString("nl-NL", {year: "numeric", month: "long", day: "numeric"})}</Td>
               <Td>{item.what}</Td>
               <Td>{item.where}</Td>

@@ -43,3 +43,7 @@ tr:first-child th:first-child,
 tr:not(:first-child):not(:last-child) th {
   border-bottom-color: transparent !important;
 }
+
+tr.expired {
+  background: lightgray;
+}
