@@ -1,30 +1,16 @@
 [
   {
-    "when": "23-10-2019",
-    "what": "Bardienst",
-    "where": "Rotterdam",
-    "who": ["Wim", "Zus", "Jet"],
-    "comment": "comment 1"
-  },
-  {
-    "when": "1-10-2019",
-    "what": "Wedstrijd",
-    "where": "Waddinxveen",
-    "who": ["Aap", "Noot", "Mies"],
-    "comment": "comment 2"
-  },
-  {
-    "when": "9-5-2019",
-    "what": "Wedstrijd",
-    "where": "Groningen",
-    "who":["Theun", "Gijs", "Kees"],
-    "comment": "comment 3 is heel lang omdat ik wil zien hoe deze wordt gewrapped op een iPhone :-)"
-  },
-  {
     "when": "14-9-2019",
-    "what": "Wedstrijd",
+    "what": "Uitwedstrijd",
     "where": "Drachten",
-    "who":["Iman", "Jelle", "+3 anderen"],
-    "comment": "comment 4"
+    "who": ["Olivier G", "Rean", "Marinus Wiebe, Ryan"],
+    "comment": "Sportlaan 8, Drachten."
+  },
+  {
+    "when": "5-10-2019",
+    "what": "Uitwedstrijd",
+    "where": "Hoogezand",
+    "who": ["Olivier G", "Rean", "Matthew", "Siegfried"],
+    "comment": "Nieuweweg 6e, Hoogezand."
   }
 ]
