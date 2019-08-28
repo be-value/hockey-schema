@@ -26,7 +26,7 @@ class Schedule extends React.Component<IScheduleProps, {}, any> {
             <Th>Wanneer</Th>
             <Th>Wat</Th>
             <Th>Waar</Th>
-            <Th>Wie</Th>
+            <Th>Ouder(s) van</Th>
             <Th>Bijzonderheden</Th>
           </Tr>
         </Thead>

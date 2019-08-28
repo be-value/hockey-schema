@@ -1,16 +1,44 @@
 [
   {
+    "when": "1-8-2019",
+    "what": "Algemene mededelingen",
+    "where": "",
+    "who": [],
+    "comment": "Vader van Ryan (Marco) wil graag eerste bardienst draaien. Lodewijk meldt zich graag aan. Minie Rushforth rijdt graag op 5 Oktober. Niels kan 14 September niet mee. Siegfried kan niet meedoen aan wedstrijden die laat op de middag klaar zijn. Marinus Wiebe kan 5 Oktober niet mee."
+  },
+  {
+    "when": "7-9-2019",
+    "what": "Bardienst en wedstrijdtafel",
+    "where": "Clubhuis MHCL",
+    "who": ["Ryan, Siegfried, Olivier H"],
+    "comment": "17:30 - 19:00"
+  },
+  {
+    "when": "7-9-2019",
+    "what": "Thuiswedstrijd",
+    "where": "MHCL",
+    "who": [],
+    "comment": "Thuisblijvers: Roemer, Siegfried, Jimmy"
+  },
+  {
     "when": "14-9-2019",
     "what": "Uitwedstrijd",
-    "where": "Drachten",
+    "where": "Sportlaan 8, Drachten.",
     "who": ["Olivier G", "Rean", "Marinus Wiebe, Ryan"],
-    "comment": "Sportlaan 8, Drachten."
+    "comment": "Thuisblijvers: Olivier H, Niels, Just"
+  },
+  {
+    "when": "28-9-2019",
+    "what": "Thuiswedstrijd",
+    "where": "MHCL",
+    "who": [],
+    "comment": "Thuisblijvers: Sander, Ewoud, Enzo"
   },
   {
     "when": "5-10-2019",
     "what": "Uitwedstrijd",
-    "where": "Hoogezand",
-    "who": ["Olivier G", "Rean", "Matthew", "Siegfried"],
-    "comment": "Nieuweweg 6e, Hoogezand."
+    "where": "Nieuweweg 6e, Hoogezand.",
+    "who": ["Olivier G", "Rean", "Matthew", "Enzo"],
+    "comment": "Thuisblijvers: Marinus Wiebe, Maino, Brent"
   }
 ]
