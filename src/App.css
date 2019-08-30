@@ -12,6 +12,10 @@
   color: white;
 }
 
+p span {
+  font-size: calc(7px + 1vmin);  
+}
+
 .App-control {
   display: flex;
   flex-direction: column;
