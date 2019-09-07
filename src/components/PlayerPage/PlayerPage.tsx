@@ -9,7 +9,6 @@ import PlayerContent from "../PlayerContent/PlayerContent";
 function getPlayers(): Array<Player> {
   var serialized: string = JSON.stringify(players);
   let items: Array<Player> = JSON.parse(serialized);
-  console.log(serialized);
   return items;
 }
 

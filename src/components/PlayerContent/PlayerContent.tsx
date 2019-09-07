@@ -5,7 +5,7 @@ import { Player } from "../../core/Player";
 
 class PlayerContent extends React.Component<IPlayerContentProps, {}, any> {
   private getPlayers(): Array<Player> {
-    var orderedPlayers: Array<Player> = this.props.players.sort((a, b) => 
+    var orderedPlayers: Array<Player> = this.props.players.sort((a, b) =>
     (a.name > b.name) ? 1 : ((b.name > a.name) ? -1 : 0));
 
     return orderedPlayers;

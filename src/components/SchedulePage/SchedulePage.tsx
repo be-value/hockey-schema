@@ -31,7 +31,6 @@ class SchedulePage extends React.Component<ISchedulePageProps, ISchedulePageStat
   private getSchedule(): any {
     var serialized: string = JSON.stringify(schedule);
     let items: Array<ScheduleItem> = JSON.parse(serialized, dateReviver);
-    console.log(serialized);
     return items;
   }
 

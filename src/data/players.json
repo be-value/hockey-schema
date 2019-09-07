@@ -57,19 +57,19 @@
     "name": "Siegfried",
     "position": "Middenveld",
     "alternative": "Voorhoede",
-    "missed": 0
+    "missed": 1
   },
   {
     "name": "Jimmy",
     "position": "Verdediging",
     "alternative": "Middenveld",
-    "missed": 0
+    "missed": 1
   },
   {
     "name": "Just",
     "position": "Verdediging",
     "alternative": "Middenveld",
-    "missed": 0
+    "missed": 1
   },
   {
     "name": "Enzo",
