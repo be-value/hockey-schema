@@ -1,0 +1,20 @@
+.App {
+  text-align: center;
+}
+
+p span {
+  font-size: calc(7px + 1vmin);  
+}
+
+.AppControl {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+.AppLink {
+  color: #61dafb;
+}
+

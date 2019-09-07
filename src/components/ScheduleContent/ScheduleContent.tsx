@@ -1,10 +1,9 @@
 import * as React from "react";
 import { Table, Thead, Tbody, Tr, Th, Td } from "react-super-responsive-table";
-import "react-super-responsive-table/dist/SuperResponsiveTableStyle.css";
-import { IScheduleProps } from "./IScheduleProps";
+import { IScheduleContentProps } from "./IScheduleContentProps";
 import { ScheduleItem } from "../../core/ScheduleItem";
 
-class Schedule extends React.Component<IScheduleProps, {}, any> {
+class ScheduleContent extends React.Component<IScheduleContentProps, {}, any> {
   private getSchedule(): Array<ScheduleItem> {
     var items: Array<ScheduleItem> = this.props.schedule.sort((a, b) => {
       var dateA: any = a.when;
@@ -47,4 +46,4 @@ class Schedule extends React.Component<IScheduleProps, {}, any> {
   }
 }
 
-export default Schedule;
+export default ScheduleContent;
