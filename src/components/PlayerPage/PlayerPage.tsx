@@ -16,7 +16,7 @@ function getPlayers(): Array<Player> {
 const PlayerPage: React.SFC<IPlayerPageProps> = (props) => {
   return (
     <div className={styles.App}>
-      <PageHeader title={"Spelers JB1 2019.2020"}/>
+      <PageHeader title={"Spelers JB1 2019.2020"} url={"/schedule"}/>
       <div className={styles.AppBody}>
          <PlayerContent players={getPlayers()}/>
       </div>

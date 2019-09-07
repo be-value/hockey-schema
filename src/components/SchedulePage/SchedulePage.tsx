@@ -42,7 +42,7 @@ class SchedulePage extends React.Component<ISchedulePageProps, ISchedulePageStat
   public render(): JSX.Element {
     return (
       <div className={styles.App}>
-        <PageHeader title={"JB1 Rij- en bardienst schema 2019/2020"}/>
+        <PageHeader title={"JB1 Rij- en bardienst schema 2019/2020"} url={"/players"}/>
         <div className={styles.AppControl}>
           <FormGroup row>
             <FormControlLabel
