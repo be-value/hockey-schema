@@ -1,0 +1,32 @@
+.App {
+  text-align: center;
+}
+
+.AppHeader {
+  background-color: #282c34;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+p span {
+  font-size: calc(7px + 1vmin);  
+}
+
+.AppControl {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+
+.AppLink {
+  color: #61dafb;
+}
+
+

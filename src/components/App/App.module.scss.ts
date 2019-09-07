@@ -1,7 +1,7 @@
 /* tslint:disable */
-  require('./ScheduleContent.module.scss');
+  require('./App.module.scss');
   const styles = {
-    schedule: 'schedule_613d8040',
+    app: 'app_613d8040',
   };
 
   export default styles;

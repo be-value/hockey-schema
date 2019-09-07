@@ -1,10 +1,12 @@
-import React from "react";
-import "./App.css";
-import ScheduleContent from "./components/ScheduleContent/ScheduleContent";
-import { ScheduleItem } from "./core/ScheduleItem";
-import schedule from "./schedule.json";
+import * as React from "react";
+import { ISchedulePageState } from "./ISchedulePageState";
+import { ISchedulePageProps } from "./ISchedulePageProps";
+import schedule from "../../data/schedule.json";
+import styles from "./SchedulePage.module.css";
+import { ScheduleItem } from "../../core/ScheduleItem";
 import { FormGroup, FormControlLabel, Switch } from "@material-ui/core";
 import preval from "preval.macro";
+import ScheduleContent from "../ScheduleContent/ScheduleContent";
 
 function dateReviver(key: any, value: any): Date|string {
   const dateFormat: any = /^\d{1,2}-\d{1,2}-\d{4}$/;
@@ -30,7 +32,7 @@ function formatDate(buildtime: any): string {
   return `${dd}-${MM}-${YY} ${HH}:${mm}:${ss}`;
 }
 
-class App extends React.Component<{}, { viewExpiredItems: boolean}, any> {
+class SchedulePage extends React.Component<ISchedulePageProps, ISchedulePageState> {
   constructor(props: any) {
     super(props);
     this.state = { viewExpiredItems: false};
@@ -45,21 +47,21 @@ class App extends React.Component<{}, { viewExpiredItems: boolean}, any> {
   }
 
   toggleViewExpiredItemsChanged = (event: any, checked: boolean) => {
-    this.setState( { viewExpiredItems: checked});
+    this.setState( { viewExpiredItems: checked });
   }
 
   public render(): JSX.Element {
     const dateTimeStamp: any = preval`module.exports = new Date();`;
 
     return (
-      <div className="App">
-        <header className="App-header">
+      <div className={styles.App}>
+        <header className={styles.AppHeader}>
           <p>
             JB1 Rij- en bardienst schema 2019/2020<br/>
             <span>versie: {formatDate(dateTimeStamp)}</span>
           </p>
         </header>
-        <div className="App-control">
+        <div className={styles.AppControl}>
           <FormGroup row>
             <FormControlLabel
               control={
@@ -69,7 +71,7 @@ class App extends React.Component<{}, { viewExpiredItems: boolean}, any> {
             />
           </FormGroup>
         </div>
-        <div className="App-body">
+        <div className={styles.AppBody}>
           <ScheduleContent schedule={this.getSchedule()} showExpiredItems={this.state.viewExpiredItems} />
         </div>
       </div>
@@ -77,4 +79,4 @@ class App extends React.Component<{}, { viewExpiredItems: boolean}, any> {
   }
 }
 
-export default App;
+export default SchedulePage;
