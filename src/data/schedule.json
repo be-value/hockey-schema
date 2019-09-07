@@ -15,37 +15,37 @@
   },
   {
     "when": "7-9-2019",
-    "what": "Thuiswedstrijd",
-    "where": "MHCL",
+    "what": "Thuiswedstrijd Sneek JB1",
+    "where": "@MHCL",
     "who": [],
     "comment": "Thuisblijvers: Just, Siegfried, Jimmy"
   },
   {
     "when": "14-9-2019",
-    "what": "Rijdienst Uitwedstrijd",
+    "what": "Rijdienst Uitwedstrijd Graspiepers JB1",
     "where": "Sportlaan 8, Drachten.",
     "who": ["Olivier G", "Rean", "Marinus Wiebe, Ryan"],
     "comment": "Thuisblijvers: Olivier H, Niels, Roemer"
   },
   {
     "when": "28-9-2019",
-    "what": "Thuiswedstrijd",
-    "where": "MHCL",
+    "what": "Thuiswedstrijd GHBS JB2",
+    "where": "@MHCL",
     "who": [],
     "comment": "Thuisblijvers: Sander, Ewoud, Enzo"
   },
   {
     "when": "5-10-2019",
-    "what": "Rijdienst Uitwedstrijd",
+    "what": "Rijdienst Uitwedstrijd Dash JB1",
     "where": "Nieuweweg 6e, Hoogezand.",
     "who": ["Olivier G", "Rean", "Matthew", "Enzo"],
     "comment": "Thuisblijvers: Marinus Wiebe, Maino, Brent"
   },
   {
     "when": "13-10-2019",
-    "what": "In voorbereiding: Oefenwedstrijd Culemborg JB1",
-    "where": "Bij voorkeur thuis @MHCL",
+    "what": "Thuis (oefenwedstrijd) Culemborg JB1",
+    "where": "@MHCL",
     "who": [],
-    "comment": "Lokatie, datum en tijd in onderhandeling. Inzet voor nu is 13 oktober, 11:00 uur bij thuis@MHCL"
+    "comment": "Aanvang 11:00 uur"
   }
 ]
