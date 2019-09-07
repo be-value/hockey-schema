@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import Schedule from "./components/Schedule/Schedule";
+import ScheduleContent from "./components/ScheduleContent/ScheduleContent";
 import { ScheduleItem } from "./core/ScheduleItem";
 import schedule from "./schedule.json";
 import { FormGroup, FormControlLabel, Switch } from "@material-ui/core";
@@ -70,7 +70,7 @@ class App extends React.Component<{}, { viewExpiredItems: boolean}, any> {
           </FormGroup>
         </div>
         <div className="App-body">
-          <Schedule schedule={this.getSchedule()} showExpiredItems={this.state.viewExpiredItems} />
+          <ScheduleContent schedule={this.getSchedule()} showExpiredItems={this.state.viewExpiredItems} />
         </div>
       </div>
     );

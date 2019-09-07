@@ -1,5 +1,5 @@
 /* tslint:disable */
-  require('./Schedule.module.scss');
+  require('./ScheduleContent.module.scss');
   const styles = {
     schedule: 'schedule_613d8040',
   };
