@@ -5,8 +5,8 @@ import schedule from "../../data/schedule.json";
 import styles from "./SchedulePage.module.css";
 import { ScheduleItem } from "../../core/ScheduleItem";
 import { FormGroup, FormControlLabel, Switch } from "@material-ui/core";
-import preval from "preval.macro";
 import ScheduleContent from "../ScheduleContent/ScheduleContent";
+import PageHeader from "../PageHeader/PageHeader";
 
 function dateReviver(key: any, value: any): Date|string {
   const dateFormat: any = /^\d{1,2}-\d{1,2}-\d{4}$/;
@@ -19,17 +19,6 @@ function dateReviver(key: any, value: any): Date|string {
   }
 
   return value;
-}
-
-function formatDate(buildtime: any): string {
-  var timestamp: Date = new Date(buildtime);
-  var dd: number = timestamp.getDate();
-  var MM: number = timestamp.getMonth()+1; // january = 0
-  var YY: number = timestamp.getFullYear();
-  var HH: number = timestamp.getHours();
-  var mm: number = timestamp.getMinutes();
-  var ss: number = timestamp.getSeconds();
-  return `${dd}-${MM}-${YY} ${HH}:${mm}:${ss}`;
 }
 
 class SchedulePage extends React.Component<ISchedulePageProps, ISchedulePageState> {
@@ -51,16 +40,9 @@ class SchedulePage extends React.Component<ISchedulePageProps, ISchedulePageStat
   }
 
   public render(): JSX.Element {
-    const dateTimeStamp: any = preval`module.exports = new Date();`;
-
     return (
       <div className={styles.App}>
-        <header className={styles.AppHeader}>
-          <p>
-            JB1 Rij- en bardienst schema 2019/2020<br/>
-            <span>versie: {formatDate(dateTimeStamp)}</span>
-          </p>
-        </header>
+        <PageHeader title={"JB1 Rij- en bardienst schema 2019/2020"}/>
         <div className={styles.AppControl}>
           <FormGroup row>
             <FormControlLabel

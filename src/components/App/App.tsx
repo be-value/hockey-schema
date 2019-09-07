@@ -1,10 +1,10 @@
 import * as React from "react";
 import { IAppProps } from "./IAppProps";
-import SchedulePage from "../SchedulePage/SchedulePage";
+import AppRouter from "../AppRouter/AppRouter";
 
 const App: React.SFC<IAppProps> = (props) => {
   return (
-    <SchedulePage/>
+    <AppRouter/>
   );
 };
 
