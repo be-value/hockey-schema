@@ -9,13 +9,13 @@
     "name": "Olivier H",
     "position": "Voorhoede",
     "alternative": "Middenveld",
-    "missed": 0
+    "missed": 1
   },
   {
     "name": "Sander",
     "position": "Voorhoede",
     "alternative": "Middenveld",
-    "missed": 0
+    "missed": 1
   },
   {
     "name": "Marinus Wiebe",
@@ -39,7 +39,7 @@
     "name": "Niels",
     "position": "Middenveld",
     "alternative": "Verdediging",
-    "missed": 0
+    "missed": 1
   },
   {
     "name": "Ewoud",
