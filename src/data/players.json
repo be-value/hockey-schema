@@ -3,7 +3,7 @@
     "name": "Roemer",
     "position": "Voorhoede",
     "alternative": "Middenveld",
-    "missed": 0
+    "missed": 1
   },
   {
     "name": "Olivier H",
@@ -45,7 +45,7 @@
     "name": "Ewoud",
     "position": "Middenveld",
     "alternative": "Voorhoede",
-    "missed": 0
+    "missed": 1
   },
   {
     "name": "Maino",
@@ -75,7 +75,7 @@
     "name": "Enzo",
     "position": "Verdediging",
     "alternative": "Middenveld",
-    "missed": 0
+    "missed": 1
   },
   {
     "name": "Brent",
