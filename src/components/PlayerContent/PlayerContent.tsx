@@ -20,6 +20,7 @@ class PlayerContent extends React.Component<IPlayerContentProps, {}, any> {
           <Th>positie</Th>
           <Th>uitwijk</Th>
           <Th>#missed</Th>
+          <Th>#bar/rijdienst</Th>
         </Tr>
       </Thead>
       <Tbody>
@@ -30,6 +31,7 @@ class PlayerContent extends React.Component<IPlayerContentProps, {}, any> {
           <Td>{item.position}</Td>
           <Td>{item.alternative}</Td>
           <Td>{item.missed}</Td>
+          <Td>{item.duty}</Td>
         </Tr>
       );})}
       </Tbody>
