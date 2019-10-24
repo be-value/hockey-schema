@@ -3,6 +3,14 @@ import { Table, Thead, Tbody, Tr, Th, Td } from "react-super-responsive-table";
 import { IScheduleContentProps } from "./IScheduleContentProps";
 import { ScheduleItem } from "../../core/ScheduleItem";
 
+function arrayContent(item: Array<string>): string {
+  if (item.length === 0) {
+    return "...";
+  }
+
+  return item.join(", ");
+}
+
 class ScheduleContent extends React.Component<IScheduleContentProps, {}, any> {
   private getSchedule(): Array<ScheduleItem> {
     var items: Array<ScheduleItem> = this.props.schedule.sort((a, b) => {
@@ -37,8 +45,8 @@ class ScheduleContent extends React.Component<IScheduleContentProps, {}, any> {
               <Td>{item.when.toLocaleDateString("nl-NL", {year: "numeric", month: "long", day: "numeric"})}</Td>
               <Td>{item.what}</Td>
               <Td>{item.where}</Td>
-              <Td>{item.who.join(", ")}</Td>
-              <Td>{item.exclude.join(", ")}</Td>
+              <Td>{arrayContent(item.who)}</Td>
+              <Td>{arrayContent(item.exclude)}</Td>
               <Td>{item.comment}</Td>
             </Tr>
           );})}
