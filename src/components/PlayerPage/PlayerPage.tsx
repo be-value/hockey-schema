@@ -6,19 +6,20 @@ import PlayerContent from "../PlayerContent/PlayerContent";
 import { getPlayers, calculateStatistics } from "../../core/CoreServices";
 import { Player } from "../../core/Player";
 
-function playerStatistics(): Array<Player> {
+function playerStatistics(atDate: Date): Array<Player> {
   let players: Array<Player> = getPlayers();
-  let atDate: Date = new Date(Date.now());
   calculateStatistics(players, atDate);
   return players;
 }
 
 const PlayerPage: React.SFC<IPlayerPageProps> = (props) => {
+  let atDate: Date = new Date(Date.now()); // new Date(2019, 11, 1);
   return (
     <div className={styles.App}>
       <PageHeader title={"Spelers JB1 2019/2020"} url={"/"}/>
       <div className={styles.AppBody}>
-         <PlayerContent players={playerStatistics()}/>
+         {/* <span>{atDate.toDateString()}</span> */}
+         <PlayerContent players={playerStatistics(atDate)}/>
       </div>
     </div>
   );

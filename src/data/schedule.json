@@ -54,5 +54,37 @@
     "who": [],
     "exclude": [],
     "comment": "Verzamelen 10:30, aanvang wedstrijd 11:00 uur"
+  },
+  {
+    "when": "2-11-2019",
+    "what": "Rijdienst Uitwedstrijd Graspiepers JB1",
+    "where": "Sportlaan 8, Drachten.",
+    "who": ["Olivier G", "Brent", "Enzo", "Jannes"],
+    "exclude": ["Maino", "Matthew", "Ryan"],
+    "comment": "..."
+  },
+  {
+    "when": "16-11-2019",
+    "what": "Rijdienst Uitwedstrijd Dash JB1",
+    "where": "Nieuweweg 6e, Hoogezand.",
+    "who": ["Olivier G", "Jimmy", "Maino", "Niels"],
+    "exclude": ["Brent", "Ewoud", "Marinus Wiebe"],
+    "comment": "..."
+  },
+  {
+    "when": "23-11-2019",
+    "what": "Thuiswedstrijd GHBS JB2",
+    "where": "@MHCL",
+    "who": [],
+    "exclude": ["Rean", "Olivier G", "Jimmy"],
+    "comment": "..."
+  },
+  {
+    "when": "30-11-2019",
+    "what": "Rijdienst Uitwedstrijd Groningen JB3",
+    "where": "Kerklaan 35 Haren",
+    "who": ["Olivier G", "Ewoud", "Roemer", "Sander"],
+    "exclude": ["Just", "Niels", "Olivier H"],
+    "comment": "..."
   }
 ]
