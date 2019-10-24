@@ -2,120 +2,86 @@
   {
     "name": "Roemer",
     "position": "Voorhoede",
-    "alternative": "Middenveld",
-    "missed": 1,
-    "duty": 0 
+    "alternative": "Middenveld"
   },
   {
     "name": "Olivier H",
     "position": "Voorhoede",
-    "alternative": "Middenveld",
-    "missed": 1,
-    "duty": 1
+    "alternative": "Middenveld"
   },
   {
     "name": "Sander",
     "position": "Voorhoede",
-    "alternative": "Middenveld",
-    "missed": 1,
-    "duty": 0
+    "alternative": "Middenveld"
   },
   {
     "name": "Marinus Wiebe",
     "position": "Voorhoede",
-    "alternative": "Middenveld",
-    "missed": 1,
-    "duty": 1
+    "alternative": "Middenveld"
   },
   {
     "name": "Rean",
     "position": "Voorhoede",
-    "alternative": "Middenveld",
-    "missed": 0,
-    "duty": 2
+    "alternative": "Middenveld"
   },
   {
     "name": "Olivier G",
     "position": "Voorhoede",
-    "alternative": "Middenveld",
-    "missed": 0,
-    "duty": 2
+    "alternative": "Middenveld"
   },
   {
     "name": "Niels",
     "position": "Middenveld",
-    "alternative": "Verdediging",
-    "missed": 1,
-    "duty": 0
+    "alternative": "Verdediging"
   },
   {
     "name": "Ewoud",
     "position": "Middenveld",
-    "alternative": "Voorhoede",
-    "missed": 1,
-    "duty": 0
+    "alternative": "Voorhoede"
   },
   {
     "name": "Maino",
     "position": "Middenveld",
-    "alternative": "Verdediging",
-    "missed": 0,
-    "duty": 0
+    "alternative": "Verdediging"
   },
   {
     "name": "Siegfried",
     "position": "Middenveld",
-    "alternative": "Voorhoede",
-    "missed": 1,
-    "duty": 1
+    "alternative": "Voorhoede"
   },
   {
     "name": "Jimmy",
     "position": "Verdediging",
-    "alternative": "Middenveld",
-    "missed": 1,
-    "duty": 0
+    "alternative": "Middenveld"
   },
   {
     "name": "Just",
     "position": "Verdediging",
-    "alternative": "Middenveld",
-    "missed": 1,
-    "duty": 1
+    "alternative": "Middenveld"
   },
   {
     "name": "Enzo",
     "position": "Verdediging",
-    "alternative": "Middenveld",
-    "missed": 2,
-    "duty": 0
+    "alternative": "Middenveld"
   },
   {
     "name": "Brent",
     "position": "Verdediging",
-    "alternative": "Middenveld",
-    "missed": 1,
-    "duty": 0
+    "alternative": "Middenveld"
   },
   {
     "name": "Ryan",
     "position": "Verdediging",
-    "alternative": "Middenveld",
-    "missed": 0,
-    "duty": 1
+    "alternative": "Middenveld"
   },
   {
     "name": "Jannes",
     "position": "Keeper",
-    "alternative": "Middenveld",
-    "missed": 0,
-    "duty": 0
+    "alternative": "Middenveld"
   },
   {
     "name": "Matthew",
     "position": "Voorhoede",
-    "alternative": "Middenveld",
-    "missed": 0,
-    "duty": 1
+    "alternative": "Middenveld"
   }
 ]

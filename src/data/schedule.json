@@ -11,7 +11,7 @@
     "when": "7-9-2019",
     "what": "Bardienst en wedstrijdtafel",
     "where": "Clubhuis MHCL",
-    "who": ["Ryan, Siegfried, Olivier H"],
+    "who": ["Siegfried", "Olivier H"],
     "exclude": [],
     "comment": "17:30 - 19:00"
   },
@@ -27,7 +27,7 @@
     "when": "14-9-2019",
     "what": "Rijdienst Uitwedstrijd Graspiepers JB1",
     "where": "Sportlaan 8, Drachten.",
-    "who": ["Olivier G", "Rean", "Marinus Wiebe, Ryan"],
+    "who": ["Olivier G", "Rean", "Marinus Wiebe", "Ryan"],
     "exclude": ["Olivier H", "Niels", "Sander"],
     "comment": "..."
   },
