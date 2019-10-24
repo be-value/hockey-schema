@@ -2,8 +2,9 @@
   {
     "when": "1-8-2019",
     "what": "Algemene mededelingen",
-    "where": "",
+    "where": "...",
     "who": [],
+    "exclude": [],
     "comment": "Vader van Ryan (Marco) wil graag eerste bardienst draaien. Lodewijk meldt zich graag aan. Minie Rushforth rijdt graag op 5 Oktober. Niels kan 14 September niet mee. Siegfried kan niet meedoen aan wedstrijden die laat op de middag klaar zijn. Marinus Wiebe kan 5 Oktober niet mee."
   },
   {
@@ -11,6 +12,7 @@
     "what": "Bardienst en wedstrijdtafel",
     "where": "Clubhuis MHCL",
     "who": ["Ryan, Siegfried, Olivier H"],
+    "exclude": [],
     "comment": "17:30 - 19:00"
   },
   {
@@ -18,34 +20,39 @@
     "what": "Thuiswedstrijd Sneek JB1",
     "where": "@MHCL",
     "who": [],
-    "comment": "Thuisblijvers: Just, Siegfried, Jimmy"
+    "exclude": ["Just", "Siegfried", "Jimmy"],
+    "comment": "..."
   },
   {
     "when": "14-9-2019",
     "what": "Rijdienst Uitwedstrijd Graspiepers JB1",
     "where": "Sportlaan 8, Drachten.",
     "who": ["Olivier G", "Rean", "Marinus Wiebe, Ryan"],
-    "comment": "Thuisblijvers: Olivier H, Niels, Sander"
+    "exclude": ["Olivier H", "Niels", "Sander"],
+    "comment": "..."
   },
   {
     "when": "28-9-2019",
     "what": "Thuiswedstrijd GHBS JB2",
     "where": "@MHCL",
     "who": [],
-    "comment": "Thuisblijvers: Roemer, Ewoud, Enzo"
+    "exclude": ["Roemer", "Ewoud", "Enzo"],
+    "comment": "..."
   },
   {
     "when": "5-10-2019",
     "what": "Rijdienst Uitwedstrijd Dash JB1",
     "where": "Nieuweweg 6e, Hoogezand.",
     "who": ["Olivier G", "Rean", "Matthew", "Just"],
-    "comment": "Thuisblijvers: Marinus Wiebe, Enzo, Brent"
+    "exclude": ["Marinus Wiebe", "Enzo", "Brent"],
+    "comment": "..."
   },
   {
     "when": "13-10-2019",
     "what": "Thuis (oefenwedstrijd) Culemborg JB1",
     "where": "@MHCL",
     "who": [],
+    "exclude": [],
     "comment": "Verzamelen 10:30, aanvang wedstrijd 11:00 uur"
   }
 ]

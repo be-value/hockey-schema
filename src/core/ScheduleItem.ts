@@ -3,6 +3,7 @@ export class ScheduleItem {
   public what: string;
   public where: string;
   public who: Array<string>;
+  public exclude: Array<string>;
   public comment: string;
 
   constructor() {
@@ -10,6 +11,7 @@ export class ScheduleItem {
     this.what = "";
     this.where = "";
     this.who = new Array<string>();
+    this.exclude = new Array<string>();
     this.comment = "";
   }
 }

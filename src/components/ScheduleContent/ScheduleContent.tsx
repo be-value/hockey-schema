@@ -22,11 +22,12 @@ class ScheduleContent extends React.Component<IScheduleContentProps, {}, any> {
       <Table>
         <Thead>
           <Tr>
-            <Th>Wanneer</Th>
-            <Th>Wat</Th>
-            <Th>Waar</Th>
-            <Th>Ouder(s) van</Th>
-            <Th>Bijzonderheden</Th>
+            <Th>Wanneer:</Th>
+            <Th>Wat:</Th>
+            <Th>Waar:</Th>
+            <Th>Ouder(s) van:</Th>
+            <Th>Thuisblijvers:</Th>
+            <Th>Bijzonderheden:</Th>
           </Tr>
         </Thead>
         <Tbody>
@@ -37,6 +38,7 @@ class ScheduleContent extends React.Component<IScheduleContentProps, {}, any> {
               <Td>{item.what}</Td>
               <Td>{item.where}</Td>
               <Td>{item.who.join(", ")}</Td>
+              <Td>{item.exclude.join(", ")}</Td>
               <Td>{item.comment}</Td>
             </Tr>
           );})}
