@@ -1,5 +1,5 @@
-import schedule from "../data/schedule.json";
-import players from "../data/players.json";
+import scheduleJson from "../data/schedule.json";
+import playerJson from "../data/players.json";
 import { ScheduleItem } from "./ScheduleItem";
 import { Player } from "./Player.js";
 
@@ -16,11 +16,12 @@ function dateReviver(key: any, value: any): Date|string {
   return value;
 }
 
-function calculateStatistics(players: Array<Player>, schedule: Array<ScheduleItem>): void {
+export function calculateStatistics(players: Array<Player>, atDate: Date): void {
+  let sched: Array<ScheduleItem> = getSchedule().filter(i => atDate.valueOf() > i.when.valueOf());
   players.forEach(p => {
     p.duty = 0;
     p.missed = 0;
-    schedule.forEach(si => {
+    sched.forEach(si => {
       if (si.who.includes(p.name)) {
         p.duty += 1;
       }
@@ -32,17 +33,14 @@ function calculateStatistics(players: Array<Player>, schedule: Array<ScheduleIte
   });
 }
 
-
 export function getSchedule(): Array<ScheduleItem> {
-  var serialized: string = JSON.stringify(schedule);
-  let items: Array<ScheduleItem> = JSON.parse(serialized, dateReviver);
-  return items;
+  var serialized: string = JSON.stringify(scheduleJson);
+  let schedule: Array<ScheduleItem> = JSON.parse(serialized, dateReviver);
+  return schedule;
 }
 
 export function getPlayers(): Array<Player> {
-  var serialized: string = JSON.stringify(players);
-  let items: Array<Player> = JSON.parse(serialized);
-  let sched: Array<ScheduleItem> = getSchedule();
-  calculateStatistics(items, sched);
-  return items;
+  var serialized: string = JSON.stringify(playerJson);
+  let players: Array<Player> = JSON.parse(serialized);
+  return players;
 }
