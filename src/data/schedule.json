@@ -59,8 +59,8 @@
     "when": "2-11-2019",
     "what": "Rijdienst Uitwedstrijd Graspiepers JB1",
     "where": "Sportlaan 8, Drachten.",
-    "who": ["Olivier G", "Brent", "Enzo", "Jannes"],
-    "exclude": ["Siegfried", "Matthew", "Ryan"],
+    "who": ["Rean", "Brent", "Enzo", "Jannes"],
+    "exclude": ["Siegfried", "Niels", "Ryan"],
     "comment": "..."
   },
   {
