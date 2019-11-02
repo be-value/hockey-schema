@@ -59,7 +59,7 @@
     "when": "2-11-2019",
     "what": "Rijdienst Uitwedstrijd Graspiepers JB1",
     "where": "Sportlaan 8, Drachten.",
-    "who": ["Rean", "Brent", "Enzo", "Jannes"],
+    "who": ["Olivier G", "Rean", "Brent", "Enzo"],
     "exclude": ["Siegfried", "Niels", "Ryan"],
     "comment": "..."
   },
@@ -67,7 +67,7 @@
     "when": "16-11-2019",
     "what": "Rijdienst Uitwedstrijd Dash JB1",
     "where": "Nieuweweg 6e, Hoogezand.",
-    "who": ["Olivier G", "Jimmy", "Maino", "Niels"],
+    "who": ["Jannes", "Jimmy", "Maino", "Niels"],
     "exclude": ["Brent", "Ewoud", "Marinus Wiebe"],
     "comment": "..."
   },
@@ -84,7 +84,7 @@
     "what": "Rijdienst Uitwedstrijd Groningen JB3",
     "where": "Kerklaan 35 Haren",
     "who": ["Olivier G", "Ewoud", "Roemer", "Sander"],
-    "exclude": ["Just", "Niels", "Olivier H"],
+    "exclude": ["Just", "Matthew", "Olivier H"],
     "comment": "..."
   }
 ]
