@@ -68,7 +68,7 @@
     "what": "Rijdienst Uitwedstrijd Dash JB1",
     "where": "Nieuweweg 6e, Hoogezand.",
     "who": ["Jannes", "Jimmy", "Maino", "Niels"],
-    "exclude": ["Matthew", "Ewoud", "Marinus Wiebe"],
+    "exclude": ["Brent", "Ewoud", "Marinus Wiebe"],
     "comment": "..."
   },
   {
@@ -84,7 +84,7 @@
     "what": "Rijdienst Uitwedstrijd Groningen JB3",
     "where": "Kerklaan 35 Haren",
     "who": ["Olivier G", "Ewoud", "Roemer", "Sander"],
-    "exclude": ["Just", "Brent", "Olivier H"],
+    "exclude": ["Just", "Matthew", "Olivier H"],
     "comment": "..."
   }
 ]
