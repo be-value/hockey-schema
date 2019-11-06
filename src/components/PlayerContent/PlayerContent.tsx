@@ -3,6 +3,14 @@ import { Table, Thead, Tbody, Tr, Th, Td } from "react-super-responsive-table";
 import { IPlayerContentProps } from "./IPlayerContentProps";
 import { Player } from "../../core/Player";
 
+function content(item: string): string {
+  if (item === undefined) {
+    return "...";
+  }
+
+  return item;
+}
+
 class PlayerContent extends React.Component<IPlayerContentProps, {}, any> {
   private getPlayers(): Array<Player> {
     var orderedPlayers: Array<Player> = this.props.players.sort((a, b) =>
@@ -21,6 +29,7 @@ class PlayerContent extends React.Component<IPlayerContentProps, {}, any> {
           <Th>uitwijk</Th>
           <Th>#missed</Th>
           <Th>#bar/rijdienst</Th>
+          <Th>bijzonderheden</Th>
         </Tr>
       </Thead>
       <Tbody>
@@ -32,6 +41,7 @@ class PlayerContent extends React.Component<IPlayerContentProps, {}, any> {
           <Td>{item.alternative}</Td>
           <Td>{item.missed}</Td>
           <Td>{item.duty}</Td>
+          <Td>{content(item.comments)}</Td>
         </Tr>
       );})}
       </Tbody>

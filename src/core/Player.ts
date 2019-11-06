@@ -4,6 +4,7 @@ export class Player {
   public alternative: string;
   public missed: number;
   public duty: number;
+  public comments: string;
 
   constructor() {
     this.name = "";
@@ -11,5 +12,6 @@ export class Player {
     this.alternative = "";
     this.missed = 0;
     this.duty = 0;
+    this.comments = "";
   }
 }
