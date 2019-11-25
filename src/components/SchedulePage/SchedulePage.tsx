@@ -5,7 +5,7 @@ import styles from "./SchedulePage.module.css";
 import { FormGroup, FormControlLabel, Switch } from "@material-ui/core";
 import ScheduleContent from "../ScheduleContent/ScheduleContent";
 import PageHeader from "../PageHeader/PageHeader";
-import { getSchedule } from "../../core/CoreServices";
+import { getSchedule } from "../../core/DataProvider";
 
 class SchedulePage extends React.Component<ISchedulePageProps, ISchedulePageState> {
   constructor(props: any) {

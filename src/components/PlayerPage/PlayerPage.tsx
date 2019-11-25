@@ -3,7 +3,8 @@ import { IPlayerPageProps } from "./IPlayerPageProps";
 import styles from "./PlayerPage.module.css";
 import PageHeader from "../PageHeader/PageHeader";
 import PlayerContent from "../PlayerContent/PlayerContent";
-import { getPlayers, calculateStatistics } from "../../core/CoreServices";
+import { calculateStatistics } from "../../core/CoreServices";
+import { getPlayers } from "../../core/DataProvider";
 import { Player } from "../../core/Player";
 
 function playerStatistics(atDate: Date): Array<Player> {
