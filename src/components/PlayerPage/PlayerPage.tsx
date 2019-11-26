@@ -6,10 +6,11 @@ import PlayerContent from "../PlayerContent/PlayerContent";
 import { calculateStatistics } from "../../core/CoreServices";
 import { getPlayers } from "../../core/DataProvider";
 import { Player } from "../../core/Player";
+import { Competition } from "../../core/Competition";
 
-function playerStatistics(atDate: Date): Array<Player> {
-  let players: Array<Player> = getPlayers();
-  calculateStatistics(players, atDate);
+function playerStatistics(competition: Competition, atDate: Date): Array<Player> {
+  let players: Array<Player> = getPlayers(competition);
+  calculateStatistics(competition, players, atDate);
   return players;
 }
 
@@ -20,7 +21,7 @@ const PlayerPage: React.SFC<IPlayerPageProps> = (props) => {
       <PageHeader title={props.title}/>
       <div className={styles.AppBody}>
          {/* <span>{atDate.toDateString()}</span> */}
-         <PlayerContent players={playerStatistics(atDate)}/>
+         <PlayerContent players={playerStatistics(props.competition, atDate)}/>
       </div>
     </div>
   );

@@ -1,7 +1,8 @@
 import fieldJB1ScheduleJson from "../data/field.jb1.schedule.json";
 import fieldJB1PlayersJson from "../data/field.jb1.players.json";
 import { ScheduleItem } from "./ScheduleItem";
-import { Player } from "./Player.js";
+import { Player } from "./Player";
+import { Competition } from "./Competition";
 
 function dateReviver(key: any, value: any): Date|string {
   const dateFormat: any = /^\d{1,2}-\d{1,2}-\d{4}$/;
@@ -16,14 +17,30 @@ function dateReviver(key: any, value: any): Date|string {
   return value;
 }
 
-export function getSchedule(): Array<ScheduleItem> {
-  let serialized: string = JSON.stringify(fieldJB1ScheduleJson);
+function getScheduleJson(competition: Competition) : any {
+  if (competition === Competition.FieldJB1) {
+    return fieldJB1ScheduleJson;
+  }
+
+  return {};
+}
+
+function getPlayersJson(competition: Competition) : any {
+  if (competition === Competition.FieldJB1) {
+    return fieldJB1PlayersJson; 
+  }
+
+  return {};
+}
+
+export function getSchedule(competition: Competition): Array<ScheduleItem> {
+  let serialized: string = JSON.stringify(getScheduleJson(competition));
   let schedule: Array<ScheduleItem> = JSON.parse(serialized, dateReviver);
   return schedule;
 }
 
-export function getPlayers(): Array<Player> {
-  let serialized: string = JSON.stringify(fieldJB1PlayersJson);
+export function getPlayers(competition: Competition): Array<Player> {
+  let serialized: string = JSON.stringify(getPlayersJson(competition));
   let players: Array<Player> = JSON.parse(serialized);
   return players;
 }
