@@ -1,5 +1,7 @@
 import fieldJB1ScheduleJson from "../data/field.jb1.schedule.json";
 import fieldJB1PlayersJson from "../data/field.jb1.players.json";
+import indoorJB2ScheduleJson from "../data/indoor.jb2.schedule.json";
+import indoorJB2PlayersJson from "../data/indoor.jb2.players.json";
 import { ScheduleItem } from "./ScheduleItem";
 import { Player } from "./Player";
 import { Competition } from "./Competition";
@@ -22,6 +24,10 @@ function getScheduleJson(competition: Competition) : any {
     return fieldJB1ScheduleJson;
   }
 
+  if (competition === Competition.IndoorJB2) {
+    return indoorJB2ScheduleJson;
+  }
+
   return {};
 }
 
@@ -30,6 +36,10 @@ function getPlayersJson(competition: Competition) : any {
     return fieldJB1PlayersJson; 
   }
 
+  if (competition === Competition.IndoorJB2) {
+    return indoorJB2PlayersJson;
+  }
+  
   return {};
 }
 

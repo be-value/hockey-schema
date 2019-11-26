@@ -1,0 +1,34 @@
+[
+  {
+    "when": "8-12-2019",
+    "what": "Rijdienst Uitwedstrijden",
+    "where": "Indoorcentrum Veendam, Jan Salwaplein 1, Veendam",
+    "who": [],
+    "exclude": [],
+    "comment": "11:25 Verzamelen op de club, 13:15 Groningen JB3, 15:05 Westerkwartier JB1"
+  },
+  {
+    "when": "15-12-2019",
+    "what": "Rijdienst Uitwedstrijden",
+    "where": "Quicksilver Sporthal, Sportlaan 1, Zuidhorn",
+    "who": [],
+    "exclude": [],
+    "comment": "14:05 Verzamelen op de club, 15:20 GHBS JB3, 16:20 Groningen JB3"
+  },
+  {
+    "when": "5-1-2020",
+    "what": "Thuiswedstrijden",
+    "where": "@MHCL HockeyDome",
+    "who": [],
+    "exclude": [],
+    "comment": "13:40 Westerkwartier JB1, 16:20 GHBS JB3, 17:20 Groningen JB3"
+  },
+  {
+    "when": "2-2-2020",
+    "what": "Rijdienst Uitwedstrijden",
+    "where": "Sportcentrum Leek, De Schelp 23, Leek",
+    "who": [],
+    "exclude": [],
+    "comment": "11:45 Verzamelen op de club, 13:00 GHBS JB3, 14:50 Westerkwartier JB1"
+  }
+]
