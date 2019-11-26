@@ -21,7 +21,7 @@ const PlayerPage: React.SFC<IPlayerPageProps> = (props) => {
       <PageHeader title={props.title}/>
       <div className={styles.AppBody}>
          {/* <span>{atDate.toDateString()}</span> */}
-         <PlayerContent players={playerStatistics(props.competition, atDate)}/>
+         <PlayerContent players={playerStatistics(props.competition, atDate)} competition={props.competition}/>
       </div>
     </div>
   );

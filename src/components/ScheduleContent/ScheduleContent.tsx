@@ -2,6 +2,7 @@ import * as React from "react";
 import { Table, Thead, Tbody, Tr, Th, Td } from "react-super-responsive-table";
 import { IScheduleContentProps } from "./IScheduleContentProps";
 import { ScheduleItem } from "../../core/ScheduleItem";
+import { Competition } from "../../core/Competition";
 
 function arrayContent(item: Array<string>): string {
   if (item.length === 0) {
@@ -34,7 +35,7 @@ class ScheduleContent extends React.Component<IScheduleContentProps, {}, any> {
             <Th>Wat:</Th>
             <Th>Waar:</Th>
             <Th>Ouder(s) van:</Th>
-            <Th>Thuisblijvers:</Th>
+            <Th>{this.props.competition === Competition.FieldJB1 ? "Thuisblijvers:" : "Afwezig:"}</Th>
             <Th>Bijzonderheden:</Th>
           </Tr>
         </Thead>

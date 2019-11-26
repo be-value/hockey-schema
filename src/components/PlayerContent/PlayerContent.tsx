@@ -2,6 +2,7 @@ import * as React from "react";
 import { Table, Thead, Tbody, Tr, Th, Td } from "react-super-responsive-table";
 import { IPlayerContentProps } from "./IPlayerContentProps";
 import { Player } from "../../core/Player";
+import { Competition } from "../../core/Competition";
 
 function content(item: string): string {
   if (item === undefined) {
@@ -25,8 +26,12 @@ class PlayerContent extends React.Component<IPlayerContentProps, {}, any> {
       <Thead>
         <Tr>
           <Th>Naam</Th>
-          <Th>positie</Th>
-          <Th>uitwijk</Th>
+          { this.props.competition === Competition.FieldJB1 && 
+            <Th>positie</Th>
+          }
+          { this.props.competition === Competition.FieldJB1 && 
+            <Th>uitwijk</Th>
+          }
           <Th>#missed</Th>
           <Th>#bar/rijdienst</Th>
           <Th>bijzonderheden</Th>
@@ -37,8 +42,12 @@ class PlayerContent extends React.Component<IPlayerContentProps, {}, any> {
           return (
         <Tr key={key}>
           <Td>{item.name}</Td>
-          <Td>{item.position}</Td>
-          <Td>{item.alternative}</Td>
+          { this.props.competition === Competition.FieldJB1 && 
+            <Td>{item.position}</Td>
+          }
+          { this.props.competition === Competition.FieldJB1 && 
+            <Td>{item.alternative}</Td>
+          }
           <Td>{item.missed}</Td>
           <Td>{item.duty}</Td>
           <Td>{content(item.comments)}</Td>

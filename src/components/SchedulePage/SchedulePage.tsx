@@ -33,7 +33,7 @@ class SchedulePage extends React.Component<ISchedulePageProps, ISchedulePageStat
           </FormGroup>
         </div>
         <div className={styles.AppBody}>
-          <ScheduleContent schedule={getSchedule(this.props.competition)} showExpiredItems={this.state.viewExpiredItems} />
+          <ScheduleContent schedule={getSchedule(this.props.competition)} showExpiredItems={this.state.viewExpiredItems} competition={this.props.competition}/>
         </div>
       </div>
     );
