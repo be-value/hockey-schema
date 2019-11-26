@@ -6,9 +6,9 @@ import PlayerPage from "../PlayerPage/PlayerPage";
 const AppRouter: React.SFC<any> = (props) => {
   return (
     <Router>
-      <Route path="/" exact component={SchedulePage} />
-      <Route path="/schedule" exact component={SchedulePage} />
-      <Route path="/players" exact component={PlayerPage} />
+      <Route path="/" exact render={(props) => <SchedulePage {...props} title={"Veld JB1 Rij- en bardienst schema"}/>} />
+      <Route path="/schedule" exact render={(props) => <SchedulePage {...props} title={"Veld JB1 Rij- en bardienst schema"}/>} />
+      <Route path="/players" exact render={(props) => <PlayerPage {...props} title={"Veld Spelers JB1"} />} />
     </Router>
   );
 };

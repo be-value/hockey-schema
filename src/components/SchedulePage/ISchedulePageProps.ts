@@ -1,1 +1,3 @@
-export interface ISchedulePageProps {}
+export interface ISchedulePageProps {
+  title: string;
+}

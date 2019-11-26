@@ -8,7 +8,7 @@ import PageHeader from "../PageHeader/PageHeader";
 import { getSchedule } from "../../core/DataProvider";
 
 class SchedulePage extends React.Component<ISchedulePageProps, ISchedulePageState> {
-  constructor(props: any) {
+  constructor(props: ISchedulePageProps) {
     super(props);
     this.state = { viewExpiredItems: false};
     this.toggleViewExpiredItemsChanged = this.toggleViewExpiredItemsChanged.bind(this);
@@ -21,7 +21,7 @@ class SchedulePage extends React.Component<ISchedulePageProps, ISchedulePageStat
   public render(): JSX.Element {
     return (
       <div className={styles.App}>
-        <PageHeader title={"JB1 Rij- en bardienst schema 2019/2020"} url={"/players"}/>
+        <PageHeader title={this.props.title}/>
         <div className={styles.AppControl}>
           <FormGroup row>
             <FormControlLabel

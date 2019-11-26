@@ -2,7 +2,6 @@ import * as React from "react";
 import { IPageHeaderProps } from "./IPageHeaderProps";
 import styles from "./PageHeader.module.css";
 import preval from "preval.macro";
-import { Link } from "react-router-dom";
 
 function formatDate(buildtime: any): string {
   var timestamp: Date = new Date(buildtime);
@@ -19,13 +18,11 @@ const PageHeader: React.SFC<IPageHeaderProps> = (props) => {
   const dateTimeStamp: any = preval`module.exports = new Date();`;
 
   return (
-    <Link to={props.url}>
     <header className={styles.AppHeader}>
       <p>{props.title}<br/>
-        <span>versie: {formatDate(dateTimeStamp)}</span>
+        {/* <span>versie: {formatDate(dateTimeStamp)}</span> */}
       </p>
-  </header>
-  </Link>);
+  </header>);
 };
 
 export default PageHeader;

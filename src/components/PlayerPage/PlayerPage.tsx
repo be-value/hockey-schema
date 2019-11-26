@@ -17,7 +17,7 @@ const PlayerPage: React.SFC<IPlayerPageProps> = (props) => {
   let atDate: Date = new Date(Date.now()); // new Date(2019, 11, 1);
   return (
     <div className={styles.App}>
-      <PageHeader title={"Spelers JB1 2019/2020"} url={"/"}/>
+      <PageHeader title={props.title}/>
       <div className={styles.AppBody}>
          {/* <span>{atDate.toDateString()}</span> */}
          <PlayerContent players={playerStatistics(atDate)}/>

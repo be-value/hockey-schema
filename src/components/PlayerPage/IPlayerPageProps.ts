@@ -1,1 +1,3 @@
-export interface IPlayerPageProps {}
+export interface IPlayerPageProps {
+  title: string;
+}
