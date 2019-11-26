@@ -4,9 +4,7 @@ import AppRouter from "../AppRouter/AppRouter";
 
 const App: React.SFC<IAppProps> = (props) => {
   return (
-    <div>
-      <AppRouter/>
-    </div>    
+    <AppRouter/>
   );
 };
 
