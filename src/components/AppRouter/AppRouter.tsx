@@ -7,10 +7,22 @@ import Button from "@material-ui/core/Button";
 import Menu from "@material-ui/core/Menu";
 import MenuItem from "@material-ui/core/MenuItem";
 import styles from "./AppRouter.module.css";
+import preval from "preval.macro";
+
+function formatDate(buildtime: any): string {
+  var timestamp: Date = new Date(buildtime);
+  var dd: number = timestamp.getDate();
+  var MM: number = timestamp.getMonth()+1; // january = 0
+  var YY: number = timestamp.getFullYear();
+  var HH: number = timestamp.getHours();
+  var mm: number = timestamp.getMinutes();
+  var ss: number = timestamp.getSeconds();
+  return `${dd}-${MM}-${YY} ${HH}:${mm}:${ss}`;
+}
 
 const AppRouter: React.SFC<any> = (props) => {
-
   const [anchorEl, setAnchorEl] = React.useState<null | HTMLElement>(null);
+  const dateTimeStamp: any = preval`module.exports = new Date();`;
 
   const handleClick = (event: React.MouseEvent<HTMLButtonElement>) => {
     setAnchorEl(event.currentTarget);
@@ -22,6 +34,7 @@ const AppRouter: React.SFC<any> = (props) => {
 
   return (    
     <Router>
+      <div className={styles.Version}>version {formatDate(dateTimeStamp)}</div>     
       <div className={styles.Menu}>
         <Button className={styles.MenuButton} aria-controls="simple-menu" aria-haspopup="true" onClick={handleClick} >
           Competitie 
