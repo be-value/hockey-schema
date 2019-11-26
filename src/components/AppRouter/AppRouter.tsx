@@ -35,6 +35,8 @@ const AppRouter: React.SFC<any> = (props) => {
         >
           <MenuItem onClick={handleClose}><Link to="/field-jb1-schedule">Veld JB1 Schema</Link></MenuItem>
           <MenuItem onClick={handleClose}><Link to="/field-jb1-players">Veld JB1 Spelers</Link></MenuItem>
+          <MenuItem onClick={handleClose}><Link to="/indoor-jb1-schedule">Zaal JB1 Schema</Link></MenuItem>
+          <MenuItem onClick={handleClose}><Link to="/indoor-jb1-players">Zaal JB1 Spelers</Link></MenuItem>
           <MenuItem onClick={handleClose}><Link to="/indoor-jb2-schedule">Zaal JB2 Schema</Link></MenuItem>
           <MenuItem onClick={handleClose}><Link to="/indoor-jb2-players">Zaal JB2 Spelers</Link></MenuItem>
         </Menu>
@@ -45,6 +47,10 @@ const AppRouter: React.SFC<any> = (props) => {
              render={(props) => <SchedulePage {...props} title={"Veld JB1 Rij- en bardienst schema"} competition={Competition.FieldJB1}/>} />
       <Route path="/field-jb1-players" exact 
              render={(props) => <PlayerPage {...props} title={"Veldspelers JB1"} competition={Competition.FieldJB1}/>} />
+      <Route path="/indoor-jb1-schedule" exact 
+             render={(props) => <SchedulePage {...props} title={"Zaal JB1 Rij- en bardienst schema"} competition={Competition.IndoorJB1}/>} />
+      <Route path="/indoor-jb1-players" exact 
+             render={(props) => <PlayerPage {...props} title={"Zaalspelers JB1"} competition={Competition.IndoorJB1}/>} />
       <Route path="/indoor-jb2-schedule" exact 
              render={(props) => <SchedulePage {...props} title={"Zaal JB2 Rij- en bardienst schema"} competition={Competition.IndoorJB2}/>} />
       <Route path="/indoor-jb2-players" exact 
