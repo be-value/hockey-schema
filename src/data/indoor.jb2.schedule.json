@@ -19,9 +19,9 @@
     "when": "5-1-2020",
     "what": "Bardienst Blok 1",
     "where": "@BAR",
-    "who": ["volunteer 1", "volunteer 2"],
+    "who": ["Suzanne", "Patricia"],
     "exclude": [],
-    "comment": "15:00-16:30, twee (2) vrijwilligers gezocht"
+    "comment": "15:00-16:30"
   },
   {
     "when": "5-1-2020",
@@ -35,9 +35,9 @@
     "when": "5-1-2020",
     "what": "Zaaldienst Blok 1",
     "where": "@WEDSTRIJDTAFEL",
-    "who": ["volunteer 1"],
+    "who": ["Liana"],
     "exclude": [],
-    "comment": "13:30-15:00, een (1) vrijwilliger gezocht"
+    "comment": "13:30-15:00"
   },
   {
     "when": "5-1-2020",
