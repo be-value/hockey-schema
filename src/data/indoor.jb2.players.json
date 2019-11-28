@@ -58,5 +58,11 @@
     "name": "Jannes",
     "position": "Keeper",
     "alternative": "Middenveld"
+  },
+  {
+    "name": "Gregory",
+    "position": "Coach",
+    "alternative": "Coach",
+    "comments": "Coach"
   }
 ]

@@ -49,9 +49,9 @@ const AppRouter: React.SFC<any> = (props) => {
           <MenuItem onClick={handleClose}><Link to="/field-jb1-schedule">Veld JB1 Schema</Link></MenuItem>
           <MenuItem onClick={handleClose}><Link to="/field-jb1-players">Veld JB1 Spelers</Link></MenuItem>
           {/* <MenuItem onClick={handleClose}><Link to="/indoor-jb1-schedule">Zaal JB1 Schema</Link></MenuItem>
-          <MenuItem onClick={handleClose}><Link to="/indoor-jb1-players">Zaal JB1 Spelers</Link></MenuItem>
+          <MenuItem onClick={handleClose}><Link to="/indoor-jb1-players">Zaal JB1 Spelers</Link></MenuItem>*/}
           <MenuItem onClick={handleClose}><Link to="/indoor-jb2-schedule">Zaal JB2 Schema</Link></MenuItem>
-          <MenuItem onClick={handleClose}><Link to="/indoor-jb2-players">Zaal JB2 Spelers</Link></MenuItem> */}
+          {/* <MenuItem onClick={handleClose}><Link to="/indoor-jb2-players">Zaal JB2 Spelers</Link></MenuItem>  */}
         </Menu>
       </div>
       <Route path="/" exact 
