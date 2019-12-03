@@ -3,16 +3,16 @@
     "when": "8-12-2019",
     "what": "Rijdienst Uitwedstrijden",
     "where": "Indoorcentrum Veendam, Jan Salwaplein 1, Veendam",
-    "who": ["Enzo", "Jannes", "Jimmy", "Ewoud"],
-    "exclude": ["Rijdienst Ewoud vervalt bij afwezigheid van 1 of meer spelers"],
+    "who": ["Enzo", "Jannes", "Jimmy"],
+    "exclude": ["Niels"],
     "comment": "11:25 Verzamelen op de club, 13:15 Groningen JB3, 15:05 Westerkwartier JB1"
   },
   {
     "when": "15-12-2019",
     "what": "Rijdienst Uitwedstrijden",
     "where": "Quicksilver Sporthal, Sportlaan 1, Zuidhorn",
-    "who": ["Rean", "Just", "Maino", "Sander"],
-    "exclude": ["Rijdienst Sander vervalt bij afwezigheid van 1 of meer spelers"],
+    "who": ["Rean", "Just", "Maino"],
+    "exclude": ["Niels"],
     "comment": "14:05 Verzamelen op de club, 15:20 GHBS JB3, 16:20 Groningen JB3"
   },
   {
