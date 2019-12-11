@@ -34,8 +34,10 @@ class ScheduleContent extends React.Component<IScheduleContentProps, {}, any> {
             <Th>Wanneer:</Th>
             <Th>Wat:</Th>
             <Th>Waar:</Th>
-            <Th>Ouder(s) van:</Th>
-            <Th>{this.props.competition === Competition.FieldJB1 ? "Thuisblijvers:" : "Afwezig:"}</Th>
+            <Th>{this.props.competition !== Competition.IndoorJB1 ? "Ouder(s) van:" : "Meespelen met zJB1"}</Th>
+            { this.props.competition !== Competition.IndoorJB1 && 
+                <Th>{this.props.competition === Competition.FieldJB1 ? "Thuisblijvers:" : "Afwezig:"}</Th>
+            }
             <Th>Bijzonderheden:</Th>
           </Tr>
         </Thead>
@@ -47,7 +49,9 @@ class ScheduleContent extends React.Component<IScheduleContentProps, {}, any> {
               <Td>{item.what}</Td>
               <Td>{item.where}</Td>
               <Td>{arrayContent(item.who)}</Td>
-              <Td>{arrayContent(item.exclude)}</Td>
+              { this.props.competition !== Competition.IndoorJB1 && 
+                <Td>{arrayContent(item.exclude)}</Td>
+              }
               <Td>{item.comment}</Td>
             </Tr>
           );})}
