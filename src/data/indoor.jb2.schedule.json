@@ -67,8 +67,8 @@
     "when": "2-2-2020",
     "what": "Rijdienst Uitwedstrijden",
     "where": "Sportcentrum Leek, De Schelp 23, Leek",
-    "who": ["Niels", "Olivier H", "Jannes", "Rean"],
-    "exclude": ["Rijdienst Rean vervalt bij afwezigheid van 1 of meer spelers"],
+    "who": ["Niels", "Olivier H", "Jannes"],
+    "exclude": [],
     "comment": "11:45 Verzamelen op de club, 13:00 GHBS JB3, 14:50 Westerkwartier JB1"
   }
 ]
