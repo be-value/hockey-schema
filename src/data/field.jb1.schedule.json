@@ -131,9 +131,9 @@
     "when": "18-04-2020",
     "what": "Rijdienst Uitwedstrijd GHBS JB3",
     "where": "Laan Corpus den Hoorn 101, Groningen",
-    "who": ["+4"],
+    "who": ["Matthew", "+3"],
     "exclude": ["+3"],
-    "comment": "Brent kan niet rijden, Jannes kan niet rijden"
+    "comment": "Brent kan niet rijden, Jannes kan niet rijden, Matthew kan rijden"
   },
   {
     "when": "09-05-2020",
@@ -163,8 +163,8 @@
     "when": "13-06-2020",
     "what": "Thuiswedstrijd Westerkwartier JB1",
     "where": "@MHCL",
-    "who": ["Matthew", "+3"],
+    "who": [],
     "exclude": ["+3"],
-    "comment": "Matthew kan rijden"
+    "comment": "..."
   }
 ]
