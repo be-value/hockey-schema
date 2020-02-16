@@ -86,5 +86,85 @@
     "who": ["Rean", "Ewoud", "Roemer", "Sander"],
     "exclude": ["Marinus Wiebe", "Siegfried", "Olivier H", "Jimmy"],
     "comment": "Welkom Gregory, new coach! Veel plezier vooral (en ook succes) met de JB1 mannen gewenst!!"
+  },
+  {
+    "when": "07-03-2020",
+    "what": "Rijdienst Uitwedstrijd Sneek JB1",
+    "where": "Molenkrite 130, Sneek",
+    "who": ["+4"],
+    "exclude": ["Marinus Wiebe", "Just", "+1"],
+    "comment": "Brent kan niet rijden, Marinus Wiebe kan niet rijden en niet spelen, Just kan niet rijden en niet spelen"
+  },
+  {
+    "when": "14-03-2020",
+    "what": "Thuiswedstrijd HVA JB2 ",
+    "where": "@MHCL",
+    "who": [],
+    "exclude": ["+3"],
+    "comment": "..."
+  },
+  {
+    "when": "21-03-2020",
+    "what": "Rijdienst Uitwedstrijd Westerkwartier JB1",
+    "where": "Van Starkenborghkanaal z.z. 1, Zuidhorn",
+    "who": ["+4"],
+    "exclude": ["Marinus Wiebe", "+2"],
+    "comment": "Marinus Wiebe kan niet rijden en niet spelen"
+  },
+  {
+    "when": "28-03-2020",
+    "what": "Thuiswedstrijd Eemsmond JB1",
+    "where": "@MHCL",
+    "who": [],
+    "exclude": ["+3"],
+    "comment": "..."
+  },
+  {
+    "when": "04-04-2020",
+    "what": "Thuiswedstrijd Hondsrug JB1",
+    "where": "@MHCL",
+    "who": [],
+    "exclude": ["+3"],
+    "comment": "..."
+  },
+  {
+    "when": "18-04-2020",
+    "what": "Rijdienst Uitwedstrijd GHBS JB3",
+    "where": "Laan Corpus den Hoorn 101, Groningen",
+    "who": ["+4"],
+    "exclude": ["+3"],
+    "comment": "Brent kan niet rijden, Jannes kan niet rijden"
+  },
+  {
+    "when": "09-05-2020",
+    "what": "Thuiswedstrijd Graspiepers JB1",
+    "where": "@MHCL",
+    "who": [],
+    "exclude": ["+3"],
+    "comment": "..."
+  },
+  {
+    "when": "16-05-2020",
+    "what": "Thuiswedstrijd Sneek JB1",
+    "where": "@MHCL",
+    "who": [],
+    "exclude": ["+3"],
+    "comment": "..."
+  },
+  {
+    "when": "06-06-2020",
+    "what": "Rijdienst Uitwedstrijd HVA JB2",
+    "where": "Mien Ruijsweg 3, Assen",
+    "who": ["Marinus Wiebe", "+3"],
+    "exclude": ["+3"],
+    "comment": "Marinus Wiebe kan rijden"
+  },
+  {
+    "when": "13-06-2020",
+    "what": "Thuiswedstrijd Westerkwartier JB1",
+    "where": "@MHCL",
+    "who": ["Matthew", "+3"],
+    "exclude": ["+3"],
+    "comment": "Matthew kan rijden"
   }
 ]
