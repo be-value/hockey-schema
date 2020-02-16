@@ -93,7 +93,7 @@
     "where": "Molenkrite 130, Sneek",
     "who": ["+4"],
     "exclude": ["Marinus Wiebe", "Just", "+1"],
-    "comment": "Brent kan niet rijden, Marinus Wiebe kan niet rijden en niet spelen, Just kan niet rijden en niet spelen"
+    "comment": "Brent kan niet rijden, Olivier G. kan niet rijden, Siegfried kan niet rijden, Marinus Wiebe kan niet rijden en niet spelen, Just kan niet rijden en niet spelen"
   },
   {
     "when": "14-03-2020",
@@ -131,9 +131,9 @@
     "when": "18-04-2020",
     "what": "Rijdienst Uitwedstrijd GHBS JB3",
     "where": "Laan Corpus den Hoorn 101, Groningen",
-    "who": ["Matthew", "+3"],
+    "who": ["+4"],
     "exclude": ["+3"],
-    "comment": "Brent kan niet rijden, Jannes kan niet rijden, Matthew kan rijden"
+    "comment": "Brent kan niet rijden, Jannes kan niet rijden, Siegfried kan niet rijden"
   },
   {
     "when": "09-05-2020",
