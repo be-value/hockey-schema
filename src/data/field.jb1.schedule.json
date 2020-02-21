@@ -92,7 +92,7 @@
     "what": "Rijdienst Uitwedstrijd Sneek JB1",
     "where": "Molenkrite 130, Sneek (18:00 uur - zie lisa voor actuele tijden!)",
     "who": ["Rean", "Enzo", "Maino", "Jannes"],
-    "exclude": ["Marinus Wiebe", "Just", "+1"],
+    "exclude": ["Marinus Wiebe", "Just", "Ewoud"],
     "comment": "Brent, Olivier G., Siegfried, Marinus Wiebe, Just, Ewoud, Ryan kunnen niet rijden"
   },
   {
@@ -100,7 +100,7 @@
     "what": "Thuiswedstrijd HVA JB2",
     "where": "@MHCL",
     "who": [],
-    "exclude": ["+3"],
+    "exclude": ["Matthew", "Brent", "Maino"],
     "comment": "..."
   },
   {
@@ -108,7 +108,7 @@
     "what": "Rijdienst Uitwedstrijd Westerkwartier JB1",
     "where": "Van Starkenborghkanaal z.z. 1, Zuidhorn (14:30 uur - zie lisa voor actuele tijden!)",
     "who": ["Jimmy", "Just", "Ewoud", "Niels"],
-    "exclude": ["Marinus Wiebe", "+2"],
+    "exclude": ["Marinus Wiebe", "Enzo", "Siegfried"],
     "comment": "Marinus Wiebe, Enzo kunnen niet rijden"
   },
   {
@@ -116,7 +116,7 @@
     "what": "Thuiswedstrijd Eemsmond JB1",
     "where": "@MHCL",
     "who": [],
-    "exclude": ["+3"],
+    "exclude": ["Olivier G", "Jimmy", "Niels"],
     "comment": "..."
   },
   {
@@ -124,7 +124,7 @@
     "what": "Thuiswedstrijd Hondsrug JB1",
     "where": "@MHCL",
     "who": [],
-    "exclude": ["+3"],
+    "exclude": ["Olivier H", "Ryan", "Ewoud"],
     "comment": "..."
   },
   {
@@ -132,7 +132,7 @@
     "what": "Rijdienst Uitwedstrijd GHBS JB3",
     "where": "Laan Corpus den Hoorn 101, Groningen (tijd nog niet bekend, zie lisa voor actuele tijden)",
     "who": ["Ryan", "Olivier G", "Olivier H", "Roemer"],
-    "exclude": ["+3"],
+    "exclude": ["Rean", "Brent", "Maino"],
     "comment": "Brent, Jannes, Siegfried, Ewoud kunnen niet rijden"
   },
   {
@@ -140,7 +140,7 @@
     "what": "Thuiswedstrijd Graspiepers JB1",
     "where": "@MHCL",
     "who": [],
-    "exclude": ["+3"],
+    "exclude": ["Roemer", "Jimmy", "Niels"],
     "comment": "..."
   },
   {
@@ -148,7 +148,7 @@
     "what": "Thuiswedstrijd Sneek JB1",
     "where": "@MHCL",
     "who": [],
-    "exclude": ["+3"],
+    "exclude": ["Sander", "Just", "Siegfried"],
     "comment": "..."
   },
   {
@@ -156,7 +156,7 @@
     "what": "Rijdienst Uitwedstrijd HVA JB2",
     "where": "Mien Ruijsweg 3, Assen (17:30 - zie lisa voor actuele tijden)",
     "who": ["Marinus Wiebe", "Sander", "Siegfried", "Brent"],
-    "exclude": ["Enzo", "+3"],
+    "exclude": ["Enzo", "Matthew", "Olivier H"],
     "comment": "Enzo kan niet rijden"
   },
   {
@@ -164,7 +164,7 @@
     "what": "Thuiswedstrijd Westerkwartier JB1",
     "where": "@MHCL",
     "who": [],
-    "exclude": ["+3"],
+    "exclude": ["Olivier G", "Sander", "Ryan"],
     "comment": "..."
   }
 ]

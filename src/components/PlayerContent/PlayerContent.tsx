@@ -32,7 +32,7 @@ class PlayerContent extends React.Component<IPlayerContentProps, {}, any> {
           { this.props.competition === Competition.FieldJB1 && 
             <Th>uitwijk</Th>
           }
-          <Th>#missed</Th>
+          {/* <Th>#missed</Th> */}
           { this.props.competition === Competition.FieldJB1 && 
             <Th>#bar/rijdienst</Th>
           }
@@ -50,7 +50,7 @@ class PlayerContent extends React.Component<IPlayerContentProps, {}, any> {
           { this.props.competition === Competition.FieldJB1 && 
             <Td>{item.alternative}</Td>
           }
-          <Td>{item.missed}</Td>
+          {/* <Td>{item.missed}</Td> */}
           { this.props.competition === Competition.FieldJB1 && 
             <Td>{item.duty}</Td>
           }
