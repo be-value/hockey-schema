@@ -90,7 +90,7 @@
   {
     "when": "07-03-2020",
     "what": "Rijdienst Uitwedstrijd Sneek JB1",
-    "where": "Molenkrite 130, Sneek (18:00 uur - zie lisa voor actuele tijden!)",
+    "where": "Molenkrite 130, Sneek",
     "who": ["Rean", "Enzo", "Maino", "Jannes"],
     "exclude": ["Marinus Wiebe", "Just", "Ewoud"],
     "comment": "Brent, Olivier G., Siegfried, Marinus Wiebe, Just, Ewoud, Ryan kunnen niet rijden"
@@ -106,7 +106,7 @@
   {
     "when": "21-03-2020",
     "what": "Rijdienst Uitwedstrijd Westerkwartier JB1",
-    "where": "Van Starkenborghkanaal z.z. 1, Zuidhorn (14:30 uur - zie lisa voor actuele tijden!)",
+    "where": "Van Starkenborghkanaal z.z. 1, Zuidhorn",
     "who": ["Jimmy", "Just", "Ewoud", "Niels"],
     "exclude": ["Marinus Wiebe", "Enzo", "Siegfried"],
     "comment": "Marinus Wiebe, Enzo kunnen niet rijden"
@@ -130,7 +130,7 @@
   {
     "when": "18-04-2020",
     "what": "Rijdienst Uitwedstrijd GHBS JB3",
-    "where": "Laan Corpus den Hoorn 101, Groningen (tijd nog niet bekend, zie lisa voor actuele tijden)",
+    "where": "Laan Corpus den Hoorn 101, Groningen",
     "who": ["Ryan", "Olivier G", "Olivier H", "Roemer"],
     "exclude": ["Rean", "Brent", "Maino"],
     "comment": "Brent, Jannes, Siegfried, Ewoud kunnen niet rijden"
@@ -154,7 +154,7 @@
   {
     "when": "06-06-2020",
     "what": "Rijdienst Uitwedstrijd HVA JB2",
-    "where": "Mien Ruijsweg 3, Assen (17:30 - zie lisa voor actuele tijden)",
+    "where": "Mien Ruijsweg 3, Assen",
     "who": ["Marinus Wiebe", "Sander", "Siegfried", "Brent"],
     "exclude": ["Enzo", "Matthew", "Olivier H"],
     "comment": "Enzo kan niet rijden"
