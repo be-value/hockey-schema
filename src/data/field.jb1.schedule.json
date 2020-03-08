@@ -92,15 +92,15 @@
     "what": "Rijdienst Uitwedstrijd Sneek JB1",
     "where": "Molenkrite 130, Sneek",
     "who": ["Rean", "Enzo", "Maino", "Jannes"],
-    "exclude": ["Marinus Wiebe", "Just", "Ewoud"],
-    "comment": "Brent, Olivier G., Siegfried, Marinus Wiebe, Just, Ewoud, Ryan kunnen niet rijden"
+    "exclude": ["Marinus Wiebe", "Just", "Ewoud", "Ryan"],
+    "comment": "Olivier G., Siegfried, Marinus Wiebe, Just, Ewoud, Ryan kunnen niet rijden"
   },
   {
     "when": "14-03-2020",
     "what": "Thuiswedstrijd HVA JB2",
     "where": "@MHCL",
     "who": [],
-    "exclude": ["Matthew", "Brent", "Maino"],
+    "exclude": [],
     "comment": "..."
   },
   {
@@ -108,7 +108,7 @@
     "what": "Rijdienst Uitwedstrijd Westerkwartier JB1",
     "where": "Van Starkenborghkanaal z.z. 1, Zuidhorn",
     "who": ["Jimmy", "Just", "Ewoud", "Niels"],
-    "exclude": ["Marinus Wiebe", "Enzo", "Siegfried"],
+    "exclude": ["Marinus Wiebe", "Olivier H"],
     "comment": "Marinus Wiebe, Enzo kunnen niet rijden"
   },
   {
@@ -116,7 +116,7 @@
     "what": "Thuiswedstrijd Eemsmond JB1",
     "where": "@MHCL",
     "who": [],
-    "exclude": ["Olivier G", "Jimmy", "Niels"],
+    "exclude": [],
     "comment": "..."
   },
   {
@@ -124,23 +124,23 @@
     "what": "Thuiswedstrijd Hondsrug JB1",
     "where": "@MHCL",
     "who": [],
-    "exclude": ["Olivier H", "Ryan", "Ewoud"],
+    "exclude": [],
     "comment": "..."
   },
   {
     "when": "18-04-2020",
     "what": "Rijdienst Uitwedstrijd GHBS JB3",
     "where": "Laan Corpus den Hoorn 101, Groningen",
-    "who": ["Ryan", "Olivier G", "Olivier H", "Roemer"],
-    "exclude": ["Rean", "Brent", "Maino"],
-    "comment": "Brent, Jannes, Siegfried, Ewoud kunnen niet rijden"
+    "who": ["Ryan", "Olivier G", "Olivier H", "Roemer", "Rean"],
+    "exclude": [],
+    "comment": "Marinus Wiebe, Jannes, Siegfried, Ewoud, Jimmy kunnen niet rijden. Bij afwezigheid van één of meer spelers vervalt rijdienst van Rean."
   },
   {
     "when": "09-05-2020",
     "what": "Thuiswedstrijd Graspiepers JB1",
     "where": "@MHCL",
     "who": [],
-    "exclude": ["Roemer", "Jimmy", "Niels"],
+    "exclude": [],
     "comment": "..."
   },
   {
@@ -148,23 +148,23 @@
     "what": "Thuiswedstrijd Sneek JB1",
     "where": "@MHCL",
     "who": [],
-    "exclude": ["Sander", "Just", "Siegfried"],
+    "exclude": [],
     "comment": "..."
   },
   {
     "when": "06-06-2020",
     "what": "Rijdienst Uitwedstrijd HVA JB2",
     "where": "Mien Ruijsweg 3, Assen",
-    "who": ["Marinus Wiebe", "Sander", "Siegfried", "Brent"],
-    "exclude": ["Enzo", "Matthew", "Olivier H"],
-    "comment": "Enzo kan niet rijden"
+    "who": ["Marinus Wiebe", "Sander", "Siegfried", "CHAUFFEUR GEVRAAGD!"],
+    "exclude": ["Enzo"],
+    "comment": "Enzo, Jimmy kan niet rijden"
   },
   {
     "when": "13-06-2020",
     "what": "Thuiswedstrijd Westerkwartier JB1",
     "where": "@MHCL",
     "who": [],
-    "exclude": ["Olivier G", "Sander", "Ryan"],
+    "exclude": [],
     "comment": "..."
   }
 ]

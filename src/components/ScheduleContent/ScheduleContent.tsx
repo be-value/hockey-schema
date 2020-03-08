@@ -36,7 +36,7 @@ class ScheduleContent extends React.Component<IScheduleContentProps, {}, any> {
             <Th>Waar:</Th>
             <Th>{this.props.competition !== Competition.IndoorJB1 ? "Ouder(s) van:" : "Meespelen met zJB1"}</Th>
             { this.props.competition !== Competition.IndoorJB1 && 
-                <Th>{this.props.competition === Competition.FieldJB1 ? "Thuisblijvers:" : "Afwezig:"}</Th>
+                <Th>Afwezig:</Th>
             }
             <Th>Bijzonderheden:</Th>
           </Tr>
