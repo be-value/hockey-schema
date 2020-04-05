@@ -54,6 +54,8 @@ const AppRouter: React.SFC<any> = (props) => {
       </div> 
       <Route path="/" exact 
              render={(props) => <CoronaPage />} />
+      <Route path="/field-jb1-schedule" exact 
+             render={(props) => <CoronaPage />} /> 
       {/* <Route path="/" exact 
              render={(props) => <SchedulePage {...props} title={"Veld JB1 Rij- en bardienst schema"} competition={Competition.FieldJB1}/>} />
       <Route path="/field-jb1-schedule" exact 
