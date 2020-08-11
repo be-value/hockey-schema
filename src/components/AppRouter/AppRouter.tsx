@@ -52,14 +52,14 @@ const AppRouter: React.SFC<any> = (props) => {
           <MenuItem onClick={handleClose}><Link to="/field-jb1-players">Veld JB1 Spelers</Link></MenuItem>
         </Menu>
       </div> 
-      <Route path="/" exact 
+      {/* <Route path="/" exact 
              render={(props) => <CoronaPage />} />
       <Route path="/field-jb1-schedule" exact 
-             render={(props) => <CoronaPage />} /> 
-      {/* <Route path="/" exact 
+             render={(props) => <CoronaPage />} />  */}
+      <Route path="/" exact 
              render={(props) => <SchedulePage {...props} title={"Veld JB1 Rij- en bardienst schema"} competition={Competition.FieldJB1}/>} />
       <Route path="/field-jb1-schedule" exact 
-             render={(props) => <SchedulePage {...props} title={"Veld JB1 Rij- en bardienst schema"} competition={Competition.FieldJB1}/>} /> */}
+             render={(props) => <SchedulePage {...props} title={"Veld JB1 Rij- en bardienst schema"} competition={Competition.FieldJB1}/>} />
       <Route path="/field-jb1-players" exact 
              render={(props) => <PlayerPage {...props} title={"Veldspelers JB1"} competition={Competition.FieldJB1}/>} />
     </Router>

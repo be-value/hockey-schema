@@ -5,6 +5,16 @@
     "alternative": "Middenveld"
   },
   {
+    "name": "Olivier H",
+    "position": "Voorhoede",
+    "alternative": "Middenveld"
+  },
+  {
+    "name": "Sander",
+    "position": "Voorhoede",
+    "alternative": "Middenveld"
+  },
+  {
     "name": "Marinus Wiebe",
     "position": "Voorhoede",
     "alternative": "Middenveld"
@@ -35,6 +45,11 @@
     "alternative": "Verdediging"
   },
   {
+    "name": "Siegfried",
+    "position": "Middenveld",
+    "alternative": "Voorhoede"
+  },
+  {
     "name": "Jimmy",
     "position": "Verdediging",
     "alternative": "Middenveld",
@@ -51,14 +66,20 @@
     "alternative": "Middenveld"
   },
   {
+    "name": "Ryan",
+    "position": "Verdediging",
+    "alternative": "Middenveld"
+  },
+  {
     "name": "Jannes",
     "position": "Keeper",
     "alternative": "Middenveld"
   },
   {
-    "name": "Julian",
-    "position": "{unknown}",
-    "alternative": "{unknown}"
+    "name": "Matthew",
+    "position": "Voorhoede",
+    "alternative": "Middenveld",
+    "comments": "Bardienst kan op 28 mrt, 16 mei of 13 juni"
   },
   {
     "name": "Gregory",
