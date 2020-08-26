@@ -6,5 +6,45 @@
     "who": [],
     "exclude": [],
     "comment": "Vanaf maandag 24 augustus beginnen de trainingen weer."
+  },
+  {
+    "when": "5-09-2020",
+    "what": "Thuiswedstrijd GHHC Groningen JB2",
+    "where": "@MHCL ITBB",
+    "who": [],
+    "exclude": [],
+    "comment": "Aanvang wedstrijd: 15:45"
+  },
+  {
+    "when": "12-09-2020",
+    "what": "Rijdienst uitwedstrijd MHC Westerkwartier JB1",
+    "where": "Van Starkenborghkanaal Zuidzijde 2, Zuidhorn",
+    "who": ["Rean", "Roemer", "Niels", "Jimmy"],
+    "exclude": [],
+    "comment": "Aanvang wedstrijd: 11:00"
+  },
+  {
+    "when": "19-09-2020",
+    "what": "Rijdienst uitwedstrijd De Hondsrug JB1",
+    "where": "De Klencke 32 A, Zuidlaren",
+    "who": ["Enzo", "Ewoud", "Jannes", "Julian"],
+    "exclude": [],
+    "comment": "Aanvang wedstrijd: 12:00"
+  },
+  {
+    "when": "26-09-2020",
+    "what": "Thuiswedstrijd H.V.A. JB1",
+    "where": "@MHCL ITBB",
+    "who": [],
+    "exclude": [],
+    "comment": "Aanvang wedstrijd: 17:25"
+  },
+  {
+    "when": "3-10-2020",
+    "what": "Rijdienst uitwedstrijd MHC Dash JB1",
+    "where": "Nieuweweg 6e, Hoogezand",
+    "who": ["Maino", "Marinus", "Olivier", "Just"],
+    "exclude": [],
+    "comment": "Aanvang wedstrijd: 12:45"
   }
 ]
