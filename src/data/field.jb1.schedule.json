@@ -27,7 +27,7 @@
     "when": "19-09-2020",
     "what": "Rijdienst uitwedstrijd De Hondsrug JB1",
     "where": "De Klencke 32 A, Zuidlaren",
-    "who": ["Enzo", "Ewoud", "Jannes", "Julian"],
+    "who": ["Enzo", "Ewoud", "Olivier", "Julian"],
     "exclude": [],
     "comment": "Aanvang wedstrijd: 12:00"
   },
@@ -43,7 +43,7 @@
     "when": "3-10-2020",
     "what": "Rijdienst uitwedstrijd MHC Dash JB1",
     "where": "Nieuweweg 6e, Hoogezand",
-    "who": ["Maino", "Marinus", "Olivier", "Just"],
+    "who": ["Maino", "Marinus", "Jannes", "Just"],
     "exclude": [],
     "comment": "Aanvang wedstrijd: 12:45"
   }
