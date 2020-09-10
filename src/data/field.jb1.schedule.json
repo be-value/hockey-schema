@@ -11,8 +11,8 @@
     "when": "5-09-2020",
     "what": "Thuiswedstrijd GHHC Groningen JB2",
     "where": "@MHCL ITBB",
-    "who": ["Just", "Maino", "Marinus Wiebe"],
-    "exclude": [],
+    "who": [],
+    "exclude": ["Just", "Maino", "Marinus Wiebe"],
     "comment": "Aanvang wedstrijd: 15:45"
   },
   {
