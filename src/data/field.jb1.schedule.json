@@ -11,7 +11,7 @@
     "when": "5-09-2020",
     "what": "Thuiswedstrijd GHHC Groningen JB2",
     "where": "@MHCL ITBB",
-    "who": [],
+    "who": ["Just", "Maino", "Marinus Wiebe"],
     "exclude": [],
     "comment": "Aanvang wedstrijd: 15:45"
   },
@@ -27,8 +27,8 @@
     "when": "19-09-2020",
     "what": "Rijdienst uitwedstrijd De Hondsrug JB1",
     "where": "De Klencke 32 A, Zuidlaren",
-    "who": ["Enzo", "Ewoud", "Olivier", "Julian"],
-    "exclude": [],
+    "who": ["Enzo", "Ewoud", "Olivier", "Marinus Wiebe"],
+    "exclude": ["Julian"],
     "comment": "Aanvang wedstrijd: 12:00"
   },
   {
@@ -43,7 +43,7 @@
     "when": "3-10-2020",
     "what": "Rijdienst uitwedstrijd MHC Dash JB1",
     "where": "Nieuweweg 6e, Hoogezand",
-    "who": ["Maino", "Marinus", "Jannes", "Just"],
+    "who": ["Maino", "Julian", "Jannes", "Just"],
     "exclude": [],
     "comment": "Aanvang wedstrijd: 12:45"
   }
