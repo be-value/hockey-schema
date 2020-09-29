@@ -15,7 +15,7 @@
     "alternative": "Middenveld"
   },
   {
-    "name": "Olivier",
+    "name": "Olivier G",
     "position": "Voorhoede",
     "alternative": "Middenveld"
   },
@@ -43,8 +43,7 @@
   {
     "name": "Just",
     "position": "Verdediging",
-    "alternative": "Middenveld",
-    "comments": "Uitwedstrijd van 12 september kunne wij niet rijden"
+    "alternative": "Middenveld"
   },
   {
     "name": "Enzo",
@@ -58,6 +57,36 @@
   },
   {
     "name": "Julian",
+    "position": "{unknown}",
+    "alternative": "{unknown}"
+  },
+  {
+    "name": "Floris",
+    "position": "{unknown}",
+    "alternative": "{unknown}"
+  },
+  {
+    "name": "Yannick",
+    "position": "{unknown}",
+    "alternative": "{unknown}"
+  },
+  {
+    "name": "Merijn",
+    "position": "{unknown}",
+    "alternative": "{unknown}"
+  },
+  {
+    "name": "Olivier M",
+    "position": "{unknown}",
+    "alternative": "{unknown}"
+  },
+  {
+    "name": "Friso",
+    "position": "{unknown}",
+    "alternative": "{unknown}"
+  },
+  {
+    "name": "Marijn",
     "position": "{unknown}",
     "alternative": "{unknown}"
   },

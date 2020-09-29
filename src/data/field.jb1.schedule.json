@@ -27,7 +27,7 @@
     "when": "19-09-2020",
     "what": "Rijdienst uitwedstrijd De Hondsrug JB1",
     "where": "De Klencke 32 A, Zuidlaren",
-    "who": ["Enzo", "Ewoud", "Olivier", "Marinus Wiebe"],
+    "who": ["Enzo", "Ewoud", "Olivier G", "Marinus Wiebe"],
     "exclude": ["Julian"],
     "comment": "Aanvang wedstrijd: 12:00"
   },
@@ -40,11 +40,19 @@
     "comment": "Aanvang wedstrijd: 17:25"
   },
   {
+    "when": "02-10-2020",
+    "what": "Toegevoegd: 6 spelers vanuit JC1",
+    "where": "@MHCL JB1",
+    "who": [],
+    "exclude": [],
+    "comment": "Welkom Floris, Yannick, Merijn, Olivier, Friso en Marijn! Vanaf 30 sept is de JB1 training op woensdag (18:30-20:00) en vrijdag (19:00-20:00)."
+  },
+  {
     "when": "3-10-2020",
     "what": "Rijdienst uitwedstrijd MHC Dash JB1",
     "where": "Nieuweweg 6e, Hoogezand",
-    "who": ["Maino", "Julian", "Jannes", "Just"],
-    "exclude": [],
+    "who": ["Maino", "Julian", "Jannes", "Just", "[extra vrijwilliger, wie o wie?]"],
+    "exclude": ["Yannick"],
     "comment": "Aanvang wedstrijd: 12:45"
   }
 ]
