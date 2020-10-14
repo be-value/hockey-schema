@@ -54,5 +54,13 @@
     "who": ["Maino", "Julian", "Jannes", "Just", "Friso"],
     "exclude": ["Yannick"],
     "comment": "Aanvang wedstrijd: 12:45"
+  },
+  {
+    "when": "11-11-2020",
+    "what": "Geen wedstrijden, wel training...",
+    "where": "@MHCL",
+    "who": [],
+    "exclude": [],
+    "comment": "i.v.m. 2e COVID-19 golf zijn er iig tot 11 november geen wedstrijden. De trainingen gaan vooralsnog wel door."
   }
 ]
