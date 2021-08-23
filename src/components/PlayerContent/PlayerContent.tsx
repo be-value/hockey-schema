@@ -26,14 +26,7 @@ class PlayerContent extends React.Component<IPlayerContentProps, {}, any> {
       <Thead>
         <Tr>
           <Th>Naam</Th>
-          { this.props.competition === Competition.FieldJB1 && 
-            <Th>positie</Th>
-          }
-          { this.props.competition === Competition.FieldJB1 && 
-            <Th>uitwijk</Th>
-          }
-          {/* <Th>#missed</Th> */}
-          { this.props.competition === Competition.FieldJB1 && 
+          { this.props.competition === Competition.FieldJA1 && 
             <Th>#bar/rijdienst</Th>
           }
           <Th>bijzonderheden</Th>
@@ -44,14 +37,7 @@ class PlayerContent extends React.Component<IPlayerContentProps, {}, any> {
           return (
         <Tr key={key}>
           <Td>{item.name}</Td>
-          { this.props.competition === Competition.FieldJB1 && 
-            <Td>{item.position}</Td>
-          }
-          { this.props.competition === Competition.FieldJB1 && 
-            <Td>{item.alternative}</Td>
-          }
-          {/* <Td>{item.missed}</Td> */}
-          { this.props.competition === Competition.FieldJB1 && 
+          { this.props.competition === Competition.FieldJA1 && 
             <Td>{item.duty}</Td>
           }
           <Td>{content(item.comments)}</Td>

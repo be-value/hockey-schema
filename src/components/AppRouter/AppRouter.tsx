@@ -1,6 +1,5 @@
 import * as React from "react";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
-import CoronaPage from "../CoronaPage/CoronaPage";
 import SchedulePage from "../SchedulePage/SchedulePage";
 import PlayerPage from "../PlayerPage/PlayerPage";
 import { Competition } from "../../core/Competition";
@@ -47,19 +46,16 @@ const AppRouter: React.SFC<any> = (props) => {
           open={Boolean(anchorEl)}
           onClose={handleClose}
         >
-          <MenuItem onClick={handleClose}><Link to="/">Veld JB1 Schema</Link></MenuItem>
-          <MenuItem onClick={handleClose}><Link to="/field-jb1-players">Veld JB1 Spelers</Link></MenuItem>
-          <MenuItem onClick={handleClose}><Link to="/corona">Corona</Link></MenuItem>
+          <MenuItem onClick={handleClose}><Link to="/">Veld JA1 Schema</Link></MenuItem>
+          <MenuItem onClick={handleClose}><Link to="/field-ja1-players">Veld JA1 Spelers</Link></MenuItem>
         </Menu>
       </div> 
-      <Route path="/corona" exact 
-             render={(props) => <CoronaPage />} />
       <Route path="/" exact 
-             render={(props) => <SchedulePage {...props} title={"Veld JB1 Rij- en bardienst schema"} competition={Competition.FieldJB1}/>} />
-      <Route path="/field-jb1-schedule" exact 
-             render={(props) => <SchedulePage {...props} title={"Veld JB1 Rij- en bardienst schema"} competition={Competition.FieldJB1}/>} />
-      <Route path="/field-jb1-players" exact 
-             render={(props) => <PlayerPage {...props} title={"Veldspelers JB1"} competition={Competition.FieldJB1}/>} />
+             render={(props) => <SchedulePage {...props} title={"Veld JA1 Rij- en bardienst schema"} competition={Competition.FieldJA1}/>} />
+      <Route path="/field-ja1-schedule" exact 
+             render={(props) => <SchedulePage {...props} title={"Veld JA1 Rij- en bardienst schema"} competition={Competition.FieldJA1}/>} />
+      <Route path="/field-ja1-players" exact 
+             render={(props) => <PlayerPage {...props} title={"Veldspelers JA1"} competition={Competition.FieldJA1}/>} />
     </Router>
   );
 };

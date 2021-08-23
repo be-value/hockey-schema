@@ -1,5 +1,5 @@
-import fieldJB1ScheduleJson from "../data/field.jb1.schedule.json";
-import fieldJB1PlayersJson from "../data/field.jb1.players.json";
+import fieldJB1ScheduleJson from "../data/field.ja1.schedule.json";
+import fieldJB1PlayersJson from "../data/field.ja1.players.json";
 import { ScheduleItem } from "./ScheduleItem";
 import { Player } from "./Player";
 import { Competition } from "./Competition";
@@ -18,23 +18,15 @@ function dateReviver(key: any, value: any): Date|string {
 }
 
 function getScheduleJson(competition: Competition) : any {
-  if (competition === Competition.FieldJB1) {
+  if (competition === Competition.FieldJA1) {
     return fieldJB1ScheduleJson;
   }
-
-  // if (competition === Competition.IndoorJB1) {
-  //   return indoorJB1ScheduleJson;
-  // }
-
-  // if (competition === Competition.IndoorJB2) {
-  //   return indoorJB2ScheduleJson;
-  // }
 
   return {};
 }
 
 function getPlayersJson(competition: Competition) : any {
-  if (competition === Competition.FieldJB1) {
+  if (competition === Competition.FieldJA1) {
     return fieldJB1PlayersJson; 
   }
 

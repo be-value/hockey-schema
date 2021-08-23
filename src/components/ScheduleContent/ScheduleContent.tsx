@@ -34,10 +34,6 @@ class ScheduleContent extends React.Component<IScheduleContentProps, {}, any> {
             <Th>Wanneer:</Th>
             <Th>Wat:</Th>
             <Th>Waar:</Th>
-            <Th>{this.props.competition !== Competition.IndoorJB1 ? "Ouder(s) van:" : "Meespelen met zJB1"}</Th>
-            { this.props.competition !== Competition.IndoorJB1 && 
-                <Th>Afwezig:</Th>
-            }
             <Th>Bijzonderheden:</Th>
           </Tr>
         </Thead>
@@ -48,10 +44,6 @@ class ScheduleContent extends React.Component<IScheduleContentProps, {}, any> {
               <Td>{item.when.toLocaleDateString("nl-NL", {year: "numeric", month: "long", day: "numeric"})}</Td>
               <Td>{item.what}</Td>
               <Td>{item.where}</Td>
-              <Td>{arrayContent(item.who)}</Td>
-              { this.props.competition !== Competition.IndoorJB1 && 
-                <Td>{arrayContent(item.exclude)}</Td>
-              }
               <Td>{item.comment}</Td>
             </Tr>
           );})}
