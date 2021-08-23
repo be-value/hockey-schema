@@ -1,66 +1,37 @@
 [
   {
-    "when": "24-8-2020",
-    "what": "Algemene mededelingen",
-    "where": "...",
+    "when": "11-09-2021",
+    "what": "Thuiswedstrijd Dash JA1",
+    "where": "@MHCL Audi Bourguignon",
     "who": [],
-    "exclude": [],
-    "comment": "Vanaf maandag 24 augustus beginnen de trainingen weer."
+    "comment": "Aanvang 16:15"
   },
   {
-    "when": "5-09-2020",
-    "what": "Thuiswedstrijd GHHC Groningen JB2",
+    "when": "18-09-2021",
+    "what": "Uitwedstrijd GHHC Groningen JA2",
+    "where": "Kerklaan 35 Haren",
+    "who": ["Enzo", "Ewoud", "Floris", "Gysbert", "Jannes"],
+    "comment": "Aanvang wedstrijd: 00:00"
+  },
+  {
+    "when": "25-09-2021",
+    "what": "Thuiswedstrijd HVA JA1",
     "where": "@MHCL ITBB",
     "who": [],
-    "exclude": ["Just", "Maino", "Marinus Wiebe"],
+    "comment": "Aanvang wedstrijd: 16:15"
+  },
+  {
+    "when": "02-10-2021",
+    "what": "Thuiswedstrijd Quick Stick JA1",
+    "where": "@MHCL ITBB",
+    "who": [],
     "comment": "Aanvang wedstrijd: 15:45"
   },
   {
-    "when": "12-09-2020",
-    "what": "Rijdienst uitwedstrijd MHC Westerkwartier JB1",
-    "where": "Van Starkenborghkanaal Zuidzijde 2, Zuidhorn",
-    "who": ["Rean", "Roemer", "Niels", "Jimmy"],
-    "exclude": [],
-    "comment": "Aanvang wedstrijd: 11:00"
-  },
-  {
-    "when": "19-09-2020",
-    "what": "Rijdienst uitwedstrijd De Hondsrug JB1",
-    "where": "De Klencke 32 A, Zuidlaren",
-    "who": ["Enzo", "Ewoud", "Olivier G", "Marinus Wiebe"],
-    "exclude": ["Julian"],
-    "comment": "Aanvang wedstrijd: 12:00"
-  },
-  {
-    "when": "26-09-2020",
-    "what": "Thuiswedstrijd H.V.A. JB1",
-    "where": "@MHCL ITBB",
-    "who": [],
-    "exclude": [],
-    "comment": "Aanvang wedstrijd: 17:25"
-  },
-  {
-    "when": "02-10-2020",
-    "what": "Toegevoegd: 6 spelers vanuit JC1",
-    "where": "@MHCL JA1",
-    "who": [],
-    "exclude": [],
-    "comment": "Welkom Floris, Yannick, Merijn, Olivier, Friso en Marijn! Vanaf 30 sept is de JB1 training op woensdag (18:30-20:00) en vrijdag (19:00-20:00)."
-  },
-  {
-    "when": "3-10-2020",
-    "what": "Rijdienst uitwedstrijd MHC Dash JB1",
-    "where": "Nieuweweg 6e, Hoogezand",
-    "who": ["Maino", "Julian", "Jannes", "Just", "Friso"],
-    "exclude": ["Yannick"],
-    "comment": "Aanvang wedstrijd: 12:45"
-  },
-  {
-    "when": "11-11-2020",
-    "what": "Geen wedstrijden, wel training...",
-    "where": "@MHCL",
-    "who": [],
-    "exclude": [],
-    "comment": "i.v.m. 2e COVID-19 golf zijn er iig tot 11 november geen wedstrijden. De trainingen gaan vooralsnog wel door."
+    "when": "09-10-2021",
+    "what": "Uitwedstrijd GHHC Groningen JA3",
+    "where": "Kerklaan 35 Haren",
+    "who": ["Jimmy", "Just", "Maino", "Marijn", "Marinus Wiebe"],
+    "comment": "Aanvang wedstrijd: 00:00"
   }
 ]

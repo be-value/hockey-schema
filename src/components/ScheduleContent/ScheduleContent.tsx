@@ -34,6 +34,7 @@ class ScheduleContent extends React.Component<IScheduleContentProps, {}, any> {
             <Th>Wanneer:</Th>
             <Th>Wat:</Th>
             <Th>Waar:</Th>
+            <Th>Wie</Th>
             <Th>Bijzonderheden:</Th>
           </Tr>
         </Thead>
@@ -44,6 +45,7 @@ class ScheduleContent extends React.Component<IScheduleContentProps, {}, any> {
               <Td>{item.when.toLocaleDateString("nl-NL", {year: "numeric", month: "long", day: "numeric"})}</Td>
               <Td>{item.what}</Td>
               <Td>{item.where}</Td>
+              <Td>{arrayContent(item.who)}</Td>
               <Td>{item.comment}</Td>
             </Tr>
           );})}

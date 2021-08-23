@@ -31,9 +31,6 @@ class SchedulePage extends React.Component<ISchedulePageProps, ISchedulePageStat
               label="toon verleden"
             />
           </FormGroup>
-          <FormGroup>
-          <a href="https://www.rijksoverheid.nl/onderwerpen/coronavirus-covid-19/verkeer-openbaar-vervoer-grensstreek/vervoer-met-de-auto-of-taxi">Corona richtlijnen autovervoer.</a>
-          </FormGroup>
         </div>
         <div className={styles.AppBody}>
           <ScheduleContent schedule={getSchedule(this.props.competition)} showExpiredItems={this.state.viewExpiredItems} competition={this.props.competition}/>
