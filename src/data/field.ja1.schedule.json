@@ -10,8 +10,8 @@
     "when": "18-09-2021",
     "what": "Uitwedstrijd GHHC Groningen JA2",
     "where": "Kerklaan 35 Haren",
-    "who": [],
-    "comment": "Aanvang wedstrijd: 00:00"
+    "who": ["Rean", "Enzo", "Just", "Maino", "Gysbert"],
+    "comment": "Vertrek vanaf club: 16:00 uur. Aanvang wedstrijd: 17:30 uur."
   },
   {
     "when": "25-09-2021",
@@ -31,7 +31,7 @@
     "when": "09-10-2021",
     "what": "Uitwedstrijd GHHC Groningen JA3",
     "where": "Kerklaan 35 Haren",
-    "who": [],
-    "comment": "Aanvang wedstrijd: 00:00"
+    "who": ["Merijn", "Ewoud", "Marijn", "Floris", "Jimmy"],
+    "comment": "Vertrek vanaf de club: 10:45 uur. Aanvang wedstrijd: 12:15 uur."
   }
 ]
