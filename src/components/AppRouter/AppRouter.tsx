@@ -35,7 +35,7 @@ const AppRouter: React.SFC<any> = (props) => {
   return (    
     <Router>
       <div className={styles.Version}>version {formatDate(dateTimeStamp)}</div>     
-      <div className={styles.Menu}>
+      {/* <div className={styles.Menu}>
         <Button className={styles.MenuButton} aria-controls="simple-menu" aria-haspopup="true" onClick={handleClick} >
           Competitie 
         </Button>
@@ -47,14 +47,14 @@ const AppRouter: React.SFC<any> = (props) => {
           onClose={handleClose}
         >
           <MenuItem onClick={handleClose}><Link to="/">Veld JA1 Schema</Link></MenuItem>
-          <MenuItem onClick={handleClose}><Link to="/field-ja1-players">Veld JA1 Spelers</Link></MenuItem>
+          <MenuItem onClick={handleClose}><Link to="/players">Veld JA1 Spelers</Link></MenuItem>
         </Menu>
-      </div> 
+      </div>  */}
       <Route path="/" exact 
              render={(props) => <SchedulePage {...props} title={"Veld JA1 Rij- en bardienst schema"} competition={Competition.FieldJA1}/>} />
       <Route path="/field-ja1-schedule" exact 
              render={(props) => <SchedulePage {...props} title={"Veld JA1 Rij- en bardienst schema"} competition={Competition.FieldJA1}/>} />
-      <Route path="/field-ja1-players" exact 
+      <Route path="/players" exact 
              render={(props) => <PlayerPage {...props} title={"Veldspelers JA1"} competition={Competition.FieldJA1}/>} />
     </Router>
   );
